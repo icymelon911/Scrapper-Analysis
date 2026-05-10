@@ -1,0 +1,39 @@
+{
+  "name": "vantagepoint",
+  "version": "1.0.0",
+  "description": "Forensic social media intelligence analysis bot — Project VantagePoint",
+  "type": "module",
+  "main": "src/cli.js",
+  "bin": {
+    "vantagepoint": "./src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js monitor",
+    "analyze": "node src/cli.js analyze",
+    "history": "node src/cli.js history",
+    "dev": "node --watch src/cli.js monitor"
+  },
+  "keywords": [
+    "sentiment",
+    "analysis",
+    "intelligence",
+    "nlp",
+    "twitter",
+    "market"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "cli-table3": "^0.6.5",
+    "commander": "^14.0.3",
+    "dotenv": "^17.4.2",
+    "natural": "^8.1.1",
+    "node-cron": "^4.2.1",
+    "node-fetch": "^3.3.2",
+    "ora": "^9.4.0",
+    "puppeteer": "^24.43.0",
+    "puppeteer-core": "^24.43.0",
+    "rettiwt-api": "^4.2.0",
+    "sentiment": "^5.0.2"
+  }
+}
