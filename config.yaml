@@ -1,0 +1,9 @@
+scraper:
+  interval_minutes: 5
+  latest_posts_limit: 20
+  debug: false
+
+accounts:
+  - realDonaldTrump
+  - TuckerCarlson
+  - FoxNews

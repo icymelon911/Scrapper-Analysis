@@ -1,0 +1,6 @@
+playwright
+apscheduler
+pyyaml
+pymongo
+fastapi
+uvicorn

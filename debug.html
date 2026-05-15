@@ -1,0 +1,1484 @@
+<!DOCTYPE html><html lang="en" class="h-full" data-react-helmet="lang,class"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <!-- Managed by API -->
+    <link href="/manifest.json" rel="manifest">
+
+    <!-- Icons (managed by API) -->
+    <link rel="icon" type="image/png" href="data:image/png;base64,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">
+    <link href="/icons/icon-57x57.png" rel="apple-touch-icon" sizes="57x57">
+    <link href="/icons/icon-64x64.png" rel="apple-touch-icon" sizes="64x64">
+    <link href="/icons/icon-72x72.png" rel="apple-touch-icon" sizes="72x72">
+    <link href="/icons/icon-114x114.png" rel="apple-touch-icon" sizes="114x114">
+    <link href="/icons/icon-120x120.png" rel="apple-touch-icon" sizes="120x120">
+    <link href="/icons/icon-180x180.png" rel="apple-touch-icon" sizes="180x180">
+    <link href="/icons/icon-192x192.png" rel="apple-touch-icon" sizes="192x192">
+    <link href="/icons/icon-512x512.png" rel="apple-touch-icon" sizes="512x512">
+
+    <!-- Scripts -->
+    <script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=AW-17792302858&amp;cx=c&amp;gtm=4e65d0h1"></script><script id="gtm-script-loader" async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-P6GQDSGF"></script><script src="/scripts/ios.js"></script>
+
+    <title>Fox News (@FoxNews) | Truth Social</title><meta property="og:title" content="Fox News (@FoxNews)"><meta name="twitter:title" content="Fox News (@FoxNews)"><meta name="description" content="Fox News RSS feed"><meta property="og:description" content="Fox News RSS feed"><meta name="twitter:description" content="Fox News RSS feed"><meta property="og:image" content="https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/accounts/avatars/108/058/433/447/588/346/original/634f4eed9fee1229.png"><meta name="twitter:image" content="https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/accounts/avatars/108/058/433/447/588/346/original/634f4eed9fee1229.png"><meta property="og:site_name" content="Truth Social"><meta property="og:url" content="https://truthsocial.com/@FoxNews"><meta property="og:type" content="website"><meta name="twitter:card" content="summary">
+
+    <script type="module" crossorigin="" src="/assets/index-BRqAjYvM.js"></script>
+    <link rel="stylesheet" crossorigin="" href="/assets/index-DmvyJOgA.css">
+  <script id="vite-plugin-pwa:register-sw" src="/registerSW.js"></script><style id="_goober"> @keyframes go2264125279{from{transform:scale(0) rotate(45deg);opacity:0;}to{transform:scale(1) rotate(45deg);opacity:1;}}@keyframes go3020080000{from{transform:scale(0);opacity:0;}to{transform:scale(1);opacity:1;}}@keyframes go463499852{from{transform:scale(0) rotate(90deg);opacity:0;}to{transform:scale(1) rotate(90deg);opacity:1;}}@keyframes go1268368563{from{transform:rotate(0deg);}to{transform:rotate(360deg);}}@keyframes go1310225428{from{transform:scale(0) rotate(45deg);opacity:0;}to{transform:scale(1) rotate(45deg);opacity:1;}}@keyframes go651618207{0%{height:0;width:0;opacity:0;}40%{height:0;width:6px;opacity:1;}100%{opacity:1;height:10px;}}@keyframes go901347462{from{transform:scale(0.6);opacity:0.4;}to{transform:scale(1);opacity:1;}}.go4109123758{z-index:9999;}.go4109123758 > *{pointer-events:auto;}</style><script src="/scripts/gtm.js" async=""></script><meta name="description" content="Truth Social is America's &quot;Big Tent&quot; social media platform that encourages an open, free, and honest global conversation without discriminating on the basis of political ideology." data-react-helmet="true"><meta property="og:description" content="Truth Social is America's &quot;Big Tent&quot; social media platform that encourages an open, free, and honest global conversation without discriminating on the basis of political ideology." data-react-helmet="true"><meta name="twitter:description" content="Truth Social is America's &quot;Big Tent&quot; social media platform that encourages an open, free, and honest global conversation without discriminating on the basis of political ideology." data-react-helmet="true"><meta property="og:site_name" content="Truth Social" data-react-helmet="true"><meta property="og:url" content="https://truthsocial.com/@FoxNews" data-react-helmet="true"><meta property="og:type" content="website" data-react-helmet="true"><meta name="twitter:card" content="summary" data-react-helmet="true"><meta name="theme-color" content="#5448ee" data-react-helmet="true"><script type="text/javascript" src="//geo.cookie-script.com/s/3dd84b767e04f078dbb2500a90f3edd8.js?state=al-ak-az-ar-ga-hi-id-ks-la-me-ms-mo-nm-nc-nd-oh-ok-sc-sd-vt-wv-wi-wy" data-react-helmet="true"></script><script type="text/javascript" src="//cdn.cookie-script.com/s/25a23f9bc26d3df622a7d62f4a031620.js" data-react-helmet="true"></script><script src="/scripts/innovid.js" defer="true" data-react-helmet="true"></script><meta data-react-helmet="true" name="apple-itunes-app" content="app-id=1586018825, app-argument=https://truthsocial.com/@FoxNews"><link rel="modulepreload" as="script" crossorigin="" href="/assets/index-B9TqTcfQ.js"><link rel="modulepreload" as="script" crossorigin="" href="/assets/useAccountStatuses-5Vk0_X3S.js"><link rel="modulepreload" as="script" crossorigin="" href="/assets/timeline-C2-twT0p.js"><link rel="modulepreload" as="script" crossorigin="" href="/assets/useTimeline-DEr1OVcH.js"><link rel="modulepreload" as="script" crossorigin="" href="/assets/transitional-ad-DRAr3uFN.js"><link rel="modulepreload" as="script" crossorigin="" href="/assets/placeholder-status-CBkKAw5d.js"><link rel="modulepreload" as="script" crossorigin="" href="/assets/placeholder-status-content-C92IsYbA.js"><link rel="modulepreload" as="script" crossorigin="" href="/assets/useTimelineAds-DmhsLMis.js"><link rel="modulepreload" as="script" crossorigin="" href="/assets/useStatusHotkeys-CLxV98RL.js"><link rel="modulepreload" as="script" crossorigin="" href="/assets/profile-media-panel-BwNT5eys.js"><link rel="modulepreload" as="script" crossorigin="" href="/assets/media-item-jDDmByh-.js"><link rel="modulepreload" as="script" crossorigin="" href="/assets/strings-CNwKl4mq.js"><link rel="modulepreload" as="script" crossorigin="" href="/assets/useVideo-pzzYxtfJ.js"><link rel="modulepreload" as="script" crossorigin="" href="/assets/widget-CZ8IUVPh.js"><link rel="modulepreload" as="script" crossorigin="" href="/assets/arrow-right-Blmdial2.js"><link rel="modulepreload" as="script" crossorigin="" href="/assets/ad-modal-BEJ2KVs4.js"><meta property="og:title" content="Fox News (@FoxNews) | Truth Social" data-react-helmet="true"><meta name="twitter:title" content="Fox News (@FoxNews) | Truth Social" data-react-helmet="true"><meta property="og:image" content="https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/accounts/avatars/108/058/433/447/588/346/original/634f4eed9fee1229.png" data-react-helmet="true"><meta name="twitter:image" content="https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/accounts/avatars/108/058/433/447/588/346/original/634f4eed9fee1229.png" data-react-helmet="true"></head>
+  <body class="h-full bg-white text-base dark:bg-gray-900" dir="ltr" data-react-helmet="class,dir" style="">
+    <noscript>To use this website, please enable JavaScript.</noscript>
+
+    <div id="root" class="h-full"><div class="min-h-full bg-white dark:bg-gray-900"><div class="pointer-events-none fixed z-90 h-screen w-screen transition"></div><div class="z-10 flex min-h-full flex-col"><nav class="sticky top-0 z-51 border-b bg-background lg:hidden" data-testid="navbar"><div class="mx-auto max-w-7xl px-2 sm:px-6"><div class="relative flex h-16 justify-between"><div class="flex rtl:space-x-reverse items-center space-x-4 flex-1 justify-start"><a data-preview-title-id="column.home" class="ml-4 flex shrink-0 items-center" href="/"><img class="object-contain h-5 w-auto cursor-pointer" src="data:image/svg+xml,%3csvg%20width='641'%20height='112'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M117.398%2029.827V.096H48.186V109.85h35.327V29.827h33.885Z'%20fill='%235448EE'/%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='m179.264%2078.446%2021.555%2031.405h39.473l-26.451-35.483c16.739-11.229%2020.58-23.714%2020.58-34.48%200-7.513-1.802-14.262-5.407-20.249-3.605-6.103-8.952-10.857-16.041-14.261-7.09-3.521-15.741-5.282-25.955-5.282h-55.694V109.85h35.327V78.446h12.613Zm4.87-23.593h-17.483V28.97h17.483c4.686%200%208.231%201.174%2010.634%203.521%202.524%202.23%203.785%205.341%203.785%209.332%200%204.226-1.201%207.454-3.604%209.684-2.404%202.23-6.008%203.345-10.815%203.345Z'%20fill='%235448EE'/%3e%3cpath%20d='M280.559.096v57.639c0%206.69%201.562%2011.855%204.686%2015.494%203.244%203.638%208.111%205.458%2014.6%205.458%206.488%200%2011.355-1.82%2014.599-5.458%203.364-3.757%205.047-8.921%205.047-15.494V.095h35.327v57.64c0%2011.385-2.464%2021.128-7.39%2029.227-4.927%207.982-11.656%2014.027-20.187%2018.135-8.411%203.991-17.784%205.986-28.117%205.986-10.334%200-19.586-1.995-27.757-5.986-8.051-4.108-14.42-10.153-19.106-18.135-4.566-7.982-6.849-17.724-6.849-29.227V.095h35.147ZM469.976%2029.827V.096H367.239v29.73h33.525v80.025h35.327V29.827h33.885ZM594.57.096V109.85h-35.327v-38.33h-43.077v38.33h-35.327V.096h35.327v41.519h43.077V.095h35.327ZM.959.096h33.913V29.82H.96V.096Z'%20fill='%235448EE'/%3e%3cpath%20d='M640.667%2080.484H606.7v29.437h33.967V80.483Z'%20fill='%232DD0B3'/%3e%3c/svg%3e" alt="Logo"><span class="hidden">Home</span></a></div></div></div></nav><div class="min-h-screen bg-white dark:bg-gray-900"><div class="relative mx-auto max-w-3xl md:grid md:max-w-7xl md:grid-cols-12 md:gap-8 lg:px-8"><aside class="sticky top-0 hidden h-screen self-start lg:col-span-3 lg:block lg:pt-4 xl:col-span-3"><div class="flex flex-col h-full justify-between gap-12 pt-2 pb-6"><div class="flex flex-col space-y-6"><a data-preview-title-id="column.home" href="/"><img class="object-contain h-5 w-auto cursor-pointer" src="data:image/svg+xml,%3csvg%20width='641'%20height='112'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M117.398%2029.827V.096H48.186V109.85h35.327V29.827h33.885Z'%20fill='%235448EE'/%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='m179.264%2078.446%2021.555%2031.405h39.473l-26.451-35.483c16.739-11.229%2020.58-23.714%2020.58-34.48%200-7.513-1.802-14.262-5.407-20.249-3.605-6.103-8.952-10.857-16.041-14.261-7.09-3.521-15.741-5.282-25.955-5.282h-55.694V109.85h35.327V78.446h12.613Zm4.87-23.593h-17.483V28.97h17.483c4.686%200%208.231%201.174%2010.634%203.521%202.524%202.23%203.785%205.341%203.785%209.332%200%204.226-1.201%207.454-3.604%209.684-2.404%202.23-6.008%203.345-10.815%203.345Z'%20fill='%235448EE'/%3e%3cpath%20d='M280.559.096v57.639c0%206.69%201.562%2011.855%204.686%2015.494%203.244%203.638%208.111%205.458%2014.6%205.458%206.488%200%2011.355-1.82%2014.599-5.458%203.364-3.757%205.047-8.921%205.047-15.494V.095h35.327v57.64c0%2011.385-2.464%2021.128-7.39%2029.227-4.927%207.982-11.656%2014.027-20.187%2018.135-8.411%203.991-17.784%205.986-28.117%205.986-10.334%200-19.586-1.995-27.757-5.986-8.051-4.108-14.42-10.153-19.106-18.135-4.566-7.982-6.849-17.724-6.849-29.227V.095h35.147ZM469.976%2029.827V.096H367.239v29.73h33.525v80.025h35.327V29.827h33.885ZM594.57.096V109.85h-35.327v-38.33h-43.077v38.33h-35.327V.096h35.327v41.519h43.077V.095h35.327ZM.959.096h33.913V29.82H.96V.096Z'%20fill='%235448EE'/%3e%3cpath%20d='M640.667%2080.484H606.7v29.437h33.967V80.483Z'%20fill='%232DD0B3'/%3e%3c/svg%3e" alt="Logo"><span class="hidden">Home</span></a><div class="flex flex-col space-y-3"><div class="flex flex-col space-y-0"></div></div></div></div></aside><main class="md:col-span-12 lg:col-span-9 xl:col-span-6 lg:border-x"><div role="region" class="relative h-full"><div><div class="flex rtl:space-x-reverse items-start space-x-2 sticky top-16 z-50 border-b border-solid bg-white/90 backdrop-blur-sm lg:top-0 lg:pt-4 dark:bg-gray-900/90 p-4 border-border"><button class="mt-0.5 rounded-full text-gray-900 focus:ring-2 focus:ring-primary-500 dark:text-gray-100" aria-label="Back"><svg class="size-6 rtl:rotate-180" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-testid="svg-icon"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M5 12l14 0"></path><path d="M5 12l6 6"></path><path d="M5 12l6 -6"></path></svg><span class="sr-only" data-testid="back-button">Back</span></button><div class="flex rtl:space-x-reverse items-center justify-between w-full"><div class="flex rtl:space-x-reverse items-center space-x-1 overflow-hidden md:w-[55%]"><h1 class="truncate text-xl text-gray-900 dark:text-gray-100 font-bold tracking-normal font-sans normal-case [&amp;_span.invisible]:inline-block [&amp;_span.invisible]:w-0">Fox News</h1><span data-testid="verified-badge"><div class="relative flex shrink-0 flex-col" data-testid="icon"><svg width="24" height="24" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg" class="text-secondary-500 size-5" data-testid="svg-icon"><title>Verified Account</title><path d="M8.82.521a1.596 1.596 0 012.36 0l.362.398c.42.46 1.07.635 1.664.445l.512-.163a1.596 1.596 0 012.043 1.18l.115.525a1.596 1.596 0 001.218 1.218l.525.115a1.596 1.596 0 011.18 2.043l-.163.513a1.596 1.596 0 00.446 1.663l.397.362a1.596 1.596 0 010 2.36l-.397.362c-.461.42-.635 1.07-.446 1.664l.163.512a1.596 1.596 0 01-1.18 2.043l-.525.115a1.596 1.596 0 00-1.218 1.218l-.115.525a1.596 1.596 0 01-2.043 1.18l-.512-.163a1.596 1.596 0 00-1.664.445l-.362.398a1.596 1.596 0 01-2.36 0l-.362-.398a1.596 1.596 0 00-1.663-.445l-.513.163a1.596 1.596 0 01-2.043-1.18l-.115-.525a1.596 1.596 0 00-1.218-1.218l-.525-.115a1.596 1.596 0 01-1.18-2.043l.164-.512a1.596 1.596 0 00-.446-1.664L.52 11.18a1.596 1.596 0 010-2.36l.398-.362c.46-.42.635-1.07.446-1.663L1.2 6.282a1.596 1.596 0 011.18-2.043l.525-.115a1.596 1.596 0 001.218-1.218l.115-.525A1.596 1.596 0 016.282 1.2l.513.163c.594.19 1.244.015 1.663-.445L8.821.52z" fill="currentColor"></path><path d="M6.66 7.464L5.012 9.111l3.85 3.85 5.483-5.481-1.966-1.966L8.544 9.35 6.66 7.464z" fill="#fff"></path><path opacity=".5" d="M11.25 15.55l-1.646-1.848 1.646-1.646 1.887 1.887-1.887 1.606z" fill="#fff"></path></svg></div></span></div><div class="relative max-h-[28px] transition-all duration-200 -top-12 lg:-top-20"></div></div></div><div class="p-4 pb-20"><div class="-m-4"><div class="space-y-4"><div><div class="relative isolate flex h-32 w-full flex-col justify-center overflow-hidden bg-gray-200 lg:h-48 dark:bg-gray-800"><a href="https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/accounts/headers/108/058/433/447/588/346/original/56373f7566ae2af4.png" target="_blank" rel="noopener noreferrer"><div data-testid="still-image-container" class="group relative isolate overflow-hidden"><img src="https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/accounts/headers/108/058/433/447/588/346/original/56373f7566ae2af4.png" alt="Profile header" class="block size-full object-cover"><div class="absolute bottom-2 left-2 z-1 flex items-center space-x-2"></div></div></a></div><div class="px-4"><div class="flex rtl:space-x-reverse items-start space-x-5 -mt-10"><a href="https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/accounts/avatars/108/058/433/447/588/346/original/634f4eed9fee1229.png" target="_blank"><div data-testid="still-image-container" class="group isolate overflow-hidden relative size-20 rounded-full bg-white ring-[5px] ring-white dark:bg-primary-900 dark:ring-gray-900" style="width: 80px; height: 80px;"><img src="https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/accounts/avatars/108/058/433/447/588/346/original/634f4eed9fee1229.png" alt="Avatar" class="block size-full object-cover"><div class="absolute bottom-2 left-2 z-1 flex items-center space-x-2"></div></div></a><div class="mt-14 -mb-4 flex w-full justify-end"><div class="flex rtl:space-x-reverse items-stretch space-x-2"><div class="relative flex justify-center"><button type="button" class="flex items-center space-x-2 rounded-full border-2 p-1 focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 focus:outline-hidden dark:ring-offset-0 border-gray-300 bg-transparent text-gray-900 hover:border-gray-500 dark:border-gray-800 dark:text-gray-100 dark:hover:border-gray-700 self-stretch px-2" data-testid="icon-button"><div><svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-testid="svg-icon"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M5 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path><path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path><path d="M19 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path></svg></div></button></div></div></div></div></div></div><div></div><div class="flex flex-col space-y-3 mt-6 min-w-0 flex-1 px-4"><div class="flex flex-col"><div class="flex rtl:space-x-reverse items-center space-x-1"><p class="truncate text-lg text-gray-900 dark:text-gray-100 font-bold tracking-normal font-sans normal-case [&amp;_span.invisible]:inline-block [&amp;_span.invisible]:w-0 leading-5">Fox News</p><span data-testid="verified-badge"><div class="relative flex shrink-0 flex-col" data-testid="icon"><svg width="24" height="24" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg" class="w-4 text-secondary-500" data-testid="svg-icon"><title>Verified Account</title><path d="M8.82.521a1.596 1.596 0 012.36 0l.362.398c.42.46 1.07.635 1.664.445l.512-.163a1.596 1.596 0 012.043 1.18l.115.525a1.596 1.596 0 001.218 1.218l.525.115a1.596 1.596 0 011.18 2.043l-.163.513a1.596 1.596 0 00.446 1.663l.397.362a1.596 1.596 0 010 2.36l-.397.362c-.461.42-.635 1.07-.446 1.664l.163.512a1.596 1.596 0 01-1.18 2.043l-.525.115a1.596 1.596 0 00-1.218 1.218l-.115.525a1.596 1.596 0 01-2.043 1.18l-.512-.163a1.596 1.596 0 00-1.664.445l-.362.398a1.596 1.596 0 01-2.36 0l-.362-.398a1.596 1.596 0 00-1.663-.445l-.513.163a1.596 1.596 0 01-2.043-1.18l-.115-.525a1.596 1.596 0 00-1.218-1.218l-.525-.115a1.596 1.596 0 01-1.18-2.043l.164-.512a1.596 1.596 0 00-.446-1.664L.52 11.18a1.596 1.596 0 010-2.36l.398-.362c.46-.42.635-1.07.446-1.663L1.2 6.282a1.596 1.596 0 011.18-2.043l.525-.115a1.596 1.596 0 001.218-1.218l.115-.525A1.596 1.596 0 016.282 1.2l.513.163c.594.19 1.244.015 1.663-.445L8.821.52z" fill="currentColor"></path><path d="M6.66 7.464L5.012 9.111l3.85 3.85 5.483-5.481-1.966-1.966L8.544 9.35 6.66 7.464z" fill="#fff"></path><path opacity=".5" d="M11.25 15.55l-1.646-1.848 1.646-1.646 1.887 1.887-1.887 1.606z" fill="#fff"></path></svg></div></span></div><div class="flex rtl:space-x-reverse items-center space-x-0.5"><p class="truncate text-sm text-muted-foreground font-medium tracking-normal font-sans normal-case [&amp;_span.invisible]:inline-block [&amp;_span.invisible]:w-0" style="direction: ltr;">@FoxNews</p></div></div><p data-markup="true" data-testid="markup" class="text-base leading-5 text-gray-900 dark:text-gray-100 font-normal tracking-normal font-sans normal-case [&amp;_span.invisible]:inline-block [&amp;_span.invisible]:w-0 whitespace-pre-wrap [&amp;_p]:mb-4 [&amp;_p]:whitespace-pre-wrap [&amp;_p:last-child]:mb-0 [&amp;_a]:text-primary-600 [&amp;_a]:hover:underline dark:[&amp;_a]:text-primary-400 [&amp;_em]:italic [&amp;_strong]:font-bold [&amp;_ol]:mb-4 [&amp;_ol]:pl-10 [&amp;_ul]:mb-4 [&amp;_ul]:pl-10 [&amp;_ol]:list-outside [&amp;_ol]:list-decimal [&amp;_ul]:list-outside [&amp;_ul]:list-disc [&amp;_blockquote]:mb-4 [&amp;_blockquote]:border-l-4 [&amp;_blockquote]:border-solid [&amp;_blockquote]:border-gray-400 [&amp;_blockquote]:py-1 [&amp;_blockquote]:pl-4 [&amp;_blockquote]:text-gray-500 dark:[&amp;_blockquote]:text-gray-400 [&amp;_code]:cursor-text [&amp;_code]:font-mono [&amp;_pre]:cursor-text [&amp;_pre]:font-mono [&amp;_p&gt;code]:bg-gray-100 dark:[&amp;_p&gt;code]:bg-primary-800 [&amp;_pre]:bg-gray-100 dark:[&amp;_pre]:bg-primary-800 [&amp;_p&gt;code]:rounded-sm [&amp;_p&gt;code]:px-1 [&amp;_p&gt;code]:py-0.5 [&amp;_pre]:mb-4 [&amp;_pre]:overflow-x-auto [&amp;_pre]:rounded-md [&amp;_pre]:px-3 [&amp;_pre]:py-2 [&amp;_pre]:leading-6 [&amp;_pre]:break-all [&amp;_pre:last-child]:mb-0 [&amp;_img.emojione]:m-0 [&amp;_img.emojione]:h-5 [&amp;_img.emojione]:w-5 [&amp;_img.emojione+img.emojione]:ml-0.5 [&amp;_img:not(.emojione)]:hidden [&amp;.big-emoji_img.emojione]:inline [&amp;.big-emoji_img.emojione]:h-9 [&amp;.big-emoji_img.emojione]:w-9 [&amp;.big-emoji_img.emojione]:p-1 [&amp;_.status-link]:text-primary-600 [&amp;_.status-link]:hover:text-primary-800 [&amp;_.status-link]:hover:underline dark:[&amp;_.status-link]:text-primary-400 dark:[&amp;_.status-link]:hover:text-primary-400 [&amp;_.invisible]:absolute [&amp;_.invisible]:inline-block [&amp;_.invisible]:h-0 [&amp;_.invisible]:w-0 [&amp;_.invisible]:text-[0] [&amp;_.invisible_img]:m-0! [&amp;_.invisible_img]:h-0! [&amp;_.invisible_img]:w-0! [&amp;_.invisible_img]:border-0! [&amp;_.invisible_img]:p-0! [&amp;_.invisible_svg]:m-0! [&amp;_.invisible_svg]:h-0! [&amp;_.invisible_svg]:w-0! [&amp;_.invisible_svg]:border-0! [&amp;_.invisible_svg]:p-0! line-clamp-3 wrap-break-word"><p>Fox News RSS feed</p></p><div class="flex flex-col items-start gap-2 md:flex-row md:flex-wrap md:items-center"><div class="flex rtl:space-x-reverse items-center space-x-1"><div class="relative flex shrink-0 flex-col" data-testid="icon"><svg class="size-4 text-gray-600 dark:text-gray-600" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-testid="svg-icon"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M4 7a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12z"></path><path d="M16 3v4"></path><path d="M8 3v4"></path><path d="M4 11h16"></path><path d="M11 15h1"></path><path d="M12 15v3"></path></svg></div><p class="text-sm text-muted-foreground font-medium tracking-normal font-sans normal-case [&amp;_span.invisible]:inline-block [&amp;_span.invisible]:w-0">Joined April 2022</p></div></div><div class="flex rtl:space-x-reverse items-center space-x-3"><button type="button" title="5,869,601" class="hover:underline" data-testid="followers-button"><div class="flex rtl:space-x-reverse items-center space-x-1"><p class="text-sm text-gray-900 dark:text-gray-100 font-bold tracking-normal font-sans normal-case [&amp;_span.invisible]:inline-block [&amp;_span.invisible]:w-0"><span>5.86M</span></p><p class="text-sm text-muted-foreground font-normal tracking-normal font-sans normal-case [&amp;_span.invisible]:inline-block [&amp;_span.invisible]:w-0">Followers</p></div></button><button type="button" title="0" class="hover:underline" data-testid="following-button"><div class="flex rtl:space-x-reverse items-center space-x-1"><p class="text-sm text-gray-900 dark:text-gray-100 font-bold tracking-normal font-sans normal-case [&amp;_span.invisible]:inline-block [&amp;_span.invisible]:w-0"><span>0</span></p><p class="text-sm text-muted-foreground font-normal tracking-normal font-sans normal-case [&amp;_span.invisible]:inline-block [&amp;_span.invisible]:w-0">Following</p></div></button></div></div><div class="relative" data-testid="tabs"><div class="relative scrollbar-hidden overflow-x-auto scroll-smooth pb-[3px]"><div class="flex" role="tablist" data-testid="tabs-list"><button class="flex flex-1 items-center justify-center px-4 py-2 pt-3 text-center text-sm whitespace-nowrap hover:text-gray-800 disabled:pointer-events-none disabled:opacity-50 dark:hover:text-gray-50 font-bold text-gray-900 dark:text-gray-100" role="tab" aria-selected="true" tabindex="0">Truths</button><button class="flex flex-1 items-center justify-center px-4 py-2 pt-3 text-center text-sm whitespace-nowrap hover:text-gray-800 disabled:pointer-events-none disabled:opacity-50 dark:hover:text-gray-50 font-medium text-muted-foreground" role="tab" aria-selected="false" tabindex="-1">Replies</button><button class="flex flex-1 items-center justify-center px-4 py-2 pt-3 text-center text-sm whitespace-nowrap hover:text-gray-800 disabled:pointer-events-none disabled:opacity-50 dark:hover:text-gray-50 font-medium text-muted-foreground" role="tab" aria-selected="false" tabindex="-1">Media</button></div><div class="absolute z-2 h-[3px] w-full bg-primary-200 dark:bg-gray-800" style="bottom: 0px; width: 583px;"></div><div class="absolute z-2 h-[3px] bg-primary-500 transition-all duration-200 dark:bg-primary-400" style="left: 0px; bottom: 0px; width: 194.262px;"></div></div></div></div><div data-virtuoso-scroller="true" id="timeline" data-testid="virtuoso" style="position: relative;"><div data-viewport-type="window" style="height: 100%; position: absolute; top: 0px; width: 100%;"><div></div><div class="flex h-full justify-center py-4"><div class="p-4"><span class="text-base leading-5 text-gray-900 dark:text-gray-100 font-normal tracking-normal font-sans normal-case [&amp;_span.invisible]:inline-block [&amp;_span.invisible]:w-0"><div class="flex flex-col space-y-4 items-center py-10"><div class="flex flex-col space-y-2"><p class="text-2xl text-gray-900 dark:text-gray-100 font-bold tracking-normal font-sans text-center normal-case [&amp;_span.invisible]:inline-block [&amp;_span.invisible]:w-0">No Truths</p><p class="text-base text-muted-foreground font-normal tracking-normal font-sans text-center normal-case [&amp;_span.invisible]:inline-block [&amp;_span.invisible]:w-0 leading-6">When this user composes a Truth, or ReTruths, you will see it here.</p></div></div></span></div></div><div></div></div></div></div></div></div></div><div data-testid="cta-banner" class="hidden lg:block"><div data-testid="banner" class="fixed inset-x-0 bottom-0 z-50 bg-background py-8 text-foreground border-t"><div class="mx-auto max-w-4xl px-4"><div class="flex rtl:space-x-reverse items-center justify-between"><div class="flex flex-col"><p class="text-2xl text-gray-900 dark:text-gray-100 font-bold tracking-normal font-sans normal-case [&amp;_span.invisible]:inline-block [&amp;_span.invisible]:w-0">Continue the conversation</p><p class="text-base leading-5 text-muted-foreground font-medium tracking-normal font-sans normal-case [&amp;_span.invisible]:inline-block [&amp;_span.invisible]:w-0">Sign up now to create your personalized experience.</p></div><div class="flex rtl:space-x-reverse items-center space-x-2"><button class="space-x-2 rtl:space-x-reverse inline-flex appearance-none place-content-center items-center rounded-full border-2 font-medium whitespace-nowrap transition-all focus:ring-2 focus:outline-hidden bg-primary-500 hover:bg-primary-400 disabled:hover:bg-primary-500 dark:disabled:hover:bg-primary-500 dark:hover:bg-primary-600 border-transparent focus:bg-primary-500 text-gray-100 focus:ring-primary-300 px-4 py-2 text-sm" type="button" data-testid="button"><span>Create Account</span></button><button class="space-x-2 rtl:space-x-reverse inline-flex appearance-none place-content-center items-center rounded-full border-2 font-medium whitespace-nowrap transition-all focus:ring-2 focus:outline-hidden bg-transparent border-gray-300 dark:border-gray-800 hover:border-gray-500 dark:hover:border-gray-700 focus:border-gray-300 dark:focus:border-gray-800 text-gray-900 dark:text-gray-100 focus:ring-gray-500 dark:focus:ring-gray-700 px-4 py-2 text-sm" type="button" data-testid="button"><span>Sign In</span></button></div></div></div></div></div></main><aside class="sticky top-0 hidden xl:col-span-3 xl:block xl:pt-4"><div class="space-y-3 pb-16" style="position: sticky; top: 16px;"><div data-testid="sign-up-panel" class="flex flex-col space-y-4 mb-6"><div class="flex flex-col"><p class="text-lg text-gray-900 dark:text-gray-100 font-bold tracking-normal font-sans normal-case [&amp;_span.invisible]:inline-block [&amp;_span.invisible]:w-0">New to Truth?</p><p class="text-sm text-muted-foreground font-normal tracking-normal font-sans normal-case [&amp;_span.invisible]:inline-block [&amp;_span.invisible]:w-0">Join Truth Social to get the full story and details.</p></div><div class="flex flex-col space-y-3"><button class="space-x-2 rtl:space-x-reverse appearance-none place-content-center items-center rounded-full border-2 font-medium whitespace-nowrap transition-all focus:ring-2 focus:outline-hidden bg-primary-500 hover:bg-primary-400 disabled:hover:bg-primary-500 dark:disabled:hover:bg-primary-500 dark:hover:bg-primary-600 border-transparent focus:bg-primary-500 text-gray-100 focus:ring-primary-300 px-4 py-2 text-sm flex w-full justify-center" type="button" data-testid="button"><span>Create Account</span></button><button class="space-x-2 rtl:space-x-reverse inline-flex appearance-none place-content-center items-center rounded-full border-2 font-medium whitespace-nowrap transition-all focus:ring-2 focus:outline-hidden bg-transparent border-gray-300 dark:border-gray-800 hover:border-gray-500 dark:hover:border-gray-700 focus:border-gray-300 dark:focus:border-gray-800 text-gray-900 dark:text-gray-100 focus:ring-gray-500 dark:focus:ring-gray-700 px-4 py-2 text-sm" type="button" data-testid="button"><span>Sign In</span></button></div></div><div class="space-y-2"><div class="divide-x-dot flex flex-wrap items-center text-gray-600"><div><a href="https://help.truthsocial.com" target="_blank" class="text-sm text-muted-foreground hover:text-gray-800 hover:underline dark:hover:text-gray-500">Help Center</a></div><div><a href="https://help.truthsocial.com/legal" target="_blank" class="text-sm text-muted-foreground hover:text-gray-800 hover:underline dark:hover:text-gray-500">Legal</a></div></div><p class="text-sm text-muted-foreground font-normal tracking-normal font-sans normal-case [&amp;_span.invisible]:inline-block [&amp;_span.invisible]:w-0"><span class="inline-block align-middle">Proudly made in the United States of America. <span aria-label="US flag" role="img">🇺🇸</span></span></p></div></div></aside></div></div></div></div><div id="toaster"><div class="top-5" style="position: fixed; z-index: 9999; inset: 20px 16px 16px; pointer-events: none;"></div></div></div>
+  
+
+
+    <style data-type="cookiescriptstyles">
+      #cookiescript_injected {
+    background-color: #FFFFFF;
+    z-index: 999997;
+    opacity: 1;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: 'Open Sans', Arial, 'Trebuchet MS', 'Segoe UI', 'Helvetica', sans-serif;
+    box-shadow: 1px 2px 8px 0 rgba(0, 0, 0, 0.35);
+    color: #2d2d2d;
+    box-sizing: border-box;
+}
+
+.cookiescript_overlay {
+    overflow: hidden;
+    height: 100vh;
+}
+
+.cookiescript_checkbox_label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding:0 4px;
+    line-height: 1.5;
+    margin:0;
+	text-align: left;
+}
+.cookiescript_pre_header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+/*
+.cookiescript_pre_header.cookiescript_with_logo {
+    position: initial;
+    width: 100%;
+    border-bottom: 1px solid #353535;
+    margin-bottom: 8px;
+    padding-bottom: 12px;
+}*/
+
+#cookiescript_close {
+    font-size: 29px;
+    line-height: 13px;
+    cursor: pointer;
+    color: #2d2d2d;
+    height: 15px;
+    width: 15px;
+    margin: 0 0 0 10px;
+    padding: 0;
+    overflow: hidden;
+    letter-spacing: 0;
+    font-family: 'Trebuchet MS', 'Arial', sans-serif;
+    font-weight: 100;
+    opacity: 0.85;
+    z-index: 999999;
+    position: relative;
+    top: -1px;
+}
+
+#cookiescript_buttons {
+    display: flex;
+    flex-direction: row;
+    font-weight: 700;
+}
+#cookiescript_manage_wrap {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 0.4px;
+    font-weight: 700;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+#cookiescript_manage {
+    display: inline;
+    cursor: pointer;
+    color: #2d2d2d;
+    opacity:0.85;
+    margin-left:-15px;
+}
+#cookiescript_manage #cookiescript_manageicon .cookiescript_gear {
+    fill: #2d2d2d;
+}
+#cookiescript_manage:hover #cookiescript_manageicon .cookiescript_gear {
+    fill: #5448ee;
+}
+
+svg#cookiescript_manageicon {
+    width: 15px;
+    height: 15px;
+    display: inline;
+    margin: 0 5px 0 0;
+    padding: 0;
+    position: relative;
+    top: 3px;
+    vertical-align: baseline;
+}
+
+.cookiescript-extra-links{
+    margin-bottom: 10px;
+    padding-top: 5px;
+}
+#cookiescript_injected.hascookiereport .cookiescript-extra-links{
+    display:none;
+}
+.cookiescript-extra-links a{
+    color: #5448ee;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    margin: 0 15px;
+    transition: all 100ms ease 0s;
+    background-color: transparent;
+    font-size: 13px;
+    text-decoration: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+}
+.cookiescript-extra-links a:hover{
+    color: #4e43db;
+    text-decoration: underline;
+}
+
+
+#cookiescript_header {
+    background-color: transparent;
+    z-index: 999998;
+    color: #2d2d2d;
+    font-size: 18px;
+    line-height: 1.3;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    opacity:1;
+}
+.cookiescript_checkbox {
+    display: flex;
+    flex-direction: row;
+}
+input.cookiescript_checkbox_input {
+}
+span.cookiescript_checkbox_text {
+    display: inline-block;
+    font-size: 12px;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #2d2d2d;
+    letter-spacing: 1px;
+}
+
+#cookiescript_save {
+    border: 0;
+    transition: all 0.25s ease 0s;
+    background-color: #5448ee;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: center;
+    line-height: 3.2;
+    letter-spacing: 0.4px;
+}
+/*IE 9 fixes*/
+@media screen and (min-width:0\0) and (min-resolution: .001dpcm) {
+    .cookiescript_checkbox_label {
+        position: relative;
+        top:-10px;
+    }
+    #cookiescript_accept, #cookiescript_reject, #cookiescript_save{
+    	display: inline-block;
+    }
+    #cookiescript_buttons{
+    	text-align:center;
+    }
+}
+#cookiescript_save{
+    display: none;
+}
+#cookiescript_reject {
+    border: 1px solid #2d2d2d;
+    text-align: center;
+    line-height: 3;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    color: #2d2d2d;
+    background: #FFFFFF;
+}
+#cookiescript_accept {
+	transition: all 0.25s ease 0s;
+	text-transform: uppercase;
+	font-size: 12px;
+	text-align: center;
+	letter-spacing: 0.4px;
+	border: 0;
+	background-color: #5448ee;
+	color: #ffffff;
+	line-height: 3.2;
+}
+
+#cookiescript_accept, #cookiescript_reject, #cookiescript_save {
+    font-weight: 700;
+    cursor: pointer;
+    white-space: nowrap;
+    transition-duration: 100ms;
+    transition-timing-function: ease-in-out;
+    min-width: 103px;
+}
+.cookiescript_bigger {
+    transform: scale(1.1);
+}
+#cookiescript_link {
+    text-decoration: none;
+    color: #2d2d2d;
+    font-size: 11px;
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    opacity: 0.8;
+    padding: 2px;
+	display:inline !important;
+}
+
+#cookiescript_readmore,
+#cookiescript_reportlink,
+#cookiescript_cookiescriptlink {
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    margin: 0;
+    transition: all 100ms ease 0s;
+    background-color: transparent;
+    display: inline;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+#cookiescript_readmore,
+#cookiescript_description a{
+    color: #5448ee;
+    cursor: pointer;
+}
+#cookiescript_reportlink,
+#cookiescript_cookiescriptlink {
+    color: #2d2d2d;
+}
+
+
+#cookiescript_readmore:hover,
+#cookiescript_reportlink:hover,
+#cookiescript_cookiescriptlink:hover,
+#cookiescript_description a:hover{
+    text-decoration: underline;
+    color: #5448ee;
+
+}
+
+#cookiescript_description {
+    color: #2d2d2d;
+    font-size: 12px;
+    letter-spacing: 0.3px;
+    line-height: 1.65;
+    font-weight: 400;
+}
+#cookiescript_checkboxs {
+}
+#cookiescript_close:hover,
+#cookiescript_manage:hover,
+#cookiescript_link:hover
+{
+    opacity: 1;
+}
+
+#cookiescript_reject:hover {
+    background-color: #ebebeb;
+}
+
+#cookiescript_accept:hover{
+	background-color: #4e43db;
+}
+#cookiescript_save:hover {
+    background-color: #4e43db;
+}
+
+#cookiescript_readmore:hover,
+#cookiescript_reportlink:hover,
+#cookiescript_cookiescriptlink:hover
+{
+    color: #4e43db;
+}
+
+.cookiescript_globe {
+    fill:#1c1c1c;
+}
+
+.cookiescript_header_actions {
+    display: flex;
+    align-items: center;
+}
+
+@media print{
+    #cookiescript_injected{
+        display:none;
+    }
+}
+
+
+
+
+#cookiescript_injected_fsd {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(17, 17, 17, 0.5) !important;
+    z-index: 999996;
+	overflow-y: auto;
+}
+
+#cookiescript_fsd_wrapper {
+    /*animation: expandBox 2s forwards;*/
+    max-width: 950px;
+	width: 95%;
+    margin: 0 auto 3% auto;
+	top: 5%;
+    line-height: 18px;
+    letter-spacing: normal;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+	background-color: #f3f3f3;
+    z-index: 999997;
+    opacity: 1;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: 'Open Sans', Arial, 'Trebuchet MS', 'Segoe UI', 'Helvetica', sans-serif;
+    box-shadow: 1px 2px 8px 0 rgba(0, 0, 0, 0.35);
+    color: #1C1C1C;
+    align-items: center;
+    overflow: visible;
+    outline: none;
+    max-height: 90%;
+    box-sizing: border-box;
+	cursor: default;
+	min-height: 500px;
+}
+@keyframes expandBox {
+    from {
+        width: 10%;
+        margin-left:0;
+        overflow: hidden;
+        top:90%;
+        height: 5%;
+    }
+    to {
+        width: 95%;
+        margin-left:auto;
+        overflow: hidden;
+        top:5%;
+        height: 90%;
+    }
+}
+
+.cookiescript_fsd_header {
+	min-height: 57px;
+	border-bottom: 1px solid #CCC;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background-color: #ffffff;
+}
+.cookiescript_fsd_logo_a{
+	margin-left: 23px;
+    text-decoration: none;
+}
+.cookiescript_fsd_logo{
+	height: 27px;
+	width: auto;
+	display: block;
+	max-width: 100%;
+}
+.cookiescript_fsd_powered {
+    color: #666666;
+    font-size: 11px;
+    position: relative;
+    left: 31px;
+    top: 0;
+    line-height: 1;
+    text-decoration: none;
+    display: block;
+    height: 8px;
+}
+
+.cookiescript_fsd_language_drop_down {
+    position: absolute;
+    right: 67px;
+	top: 19px;
+}
+
+.cookiescript_fsd_main {
+    width: 100%;
+	background-color: #ffffff;
+}
+
+.cookiescript_fsd_main_info {
+    padding: 20px 53px 30px 53px;
+    }
+
+.cookiescript_fsd_title {
+    background-color: transparent;
+    z-index: 999998;
+    color: #1C1C1C;
+    font-size: 24px;
+    line-height: 1.3;
+    font-weight: 700;
+    opacity:1;
+}
+
+.cookiescript_fsd_description {
+    color: #1C1C1C;
+    font-size: 14px;
+    line-height: 1.6;
+    font-weight: 400;
+	margin-top: 9px;
+}
+.cookiescript_fsd_description > span{
+    opacity: 0.85;
+}
+
+#cookiescript_fsd_wrapper .cookiescript-extra-links{
+    margin-top: 10px;
+    padding-top: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+#cookiescript_fsd_wrapper .cookiescript-extra-links a {
+    color: #5448ee;
+    font-size: 14px;
+    display: block;
+    margin: 0 20px 0 0;
+}
+
+
+#cookiescript_fsd_wrapper #cookiescript_readmore{
+	font-size: 14px;
+	color: #5448ee;
+	text-decoration: none;
+}
+
+#cookiescript_fsd_wrapper .cookiescript_fsd_description a {
+    color: #5448ee;
+    cursor: pointer;
+}
+
+#cookiescript_fsd_wrapper .cookiescript_fsd_description a:hover {
+    text-decoration: underline;
+}
+
+#cookiescript_fsd_wrapper #cookiescript_readmore:hover{
+	text-decoration: underline;
+}
+
+.cookiescript_fsd_tabs {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+	flex-direction: row;
+    width: 100%;
+}
+
+.cookiescript_fsd_tabs > div {
+	cursor: pointer;
+	width: 50%;
+	text-transform: uppercase;
+	font-size: 16px;
+	text-align: center;
+	line-height: 1.6;
+	font-weight: bold;
+	border-top: 2px solid transparent;
+	transition: all 300ms ease 0s;
+	padding: 10px 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #ffffff;
+}
+
+.cookiescript_fsd_tabs > .cookiescript_active {
+    border-top: 2px solid #5448ee;
+    background-color: #f3f3f3;
+    color: #5448ee;
+}
+
+.cookiescript_fsd_tabs_content {
+    background-color: #f3f3f3;
+    padding: 5px 50px 10px 50px;
+    width: 100%;
+    overflow-y: auto;
+    box-sizing: border-box;
+    flex-grow: 1;
+	--scrollbar-width: 8px;
+	--mask-height: 35px;
+	--mask-image-content: linear-gradient( to bottom, transparent, black var(--mask-height), black calc(100% - var(--mask-height)), transparent );
+	--mask-size-content: calc(100% - var(--scrollbar-width)) 100%;
+	--mask-image-scrollbar: linear-gradient(black, black);
+	--mask-size-scrollbar: var(--scrollbar-width) 100%;
+	mask-image: var(--mask-image-content), var(--mask-image-scrollbar);
+	mask-size: var(--mask-size-content), var(--mask-size-scrollbar);
+	mask-position: 0 0, 100% 0;
+	mask-repeat: no-repeat, no-repeat;
+	-webkit-mask-image: var(--mask-image-content), var(--mask-image-scrollbar);
+	-webkit-mask-size: var(--mask-size-content), var(--mask-size-scrollbar);
+	-webkit-mask-position: 0 0, 100% 0;
+	-webkit-mask-repeat: no-repeat, no-repeat;
+}
+
+.cookiescript_fsd_tabs_content .cookiescript_hidden {
+    opacity: 0;
+    height: 0 !important;
+    overflow: hidden;
+	padding: 0 !important;
+	min-height: 0 !important;
+}
+
+.cookiescript_fsd_category {
+    border-bottom: 1px solid #e2e2e2;
+    padding-top: 23px;
+    padding-bottom: 17px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cookiescript_fsd_category:last-child {
+    border-bottom: 0;
+}
+
+.cookiescript_fsd_category .cookiescript_hidden {
+    opacity: 0;
+	overflow-y: auto;
+	overflow-x: hidden;
+	padding: 0 !important;
+	max-height: 0;
+	margin: 0;
+	height: auto !important;
+		transition: max-height 300ms ease 200ms, opacity ease 200ms, margin-top 100ms ease 100ms;
+	}
+
+.cookiescript_fsd_category_main {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    order: 1;
+}
+
+.cookiescript_fsd_category_info {
+    flex: 9;
+    padding-right: 10px;
+}
+
+.cookiescript_fsd_category_control {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.cookiescript_fsd__category_name {
+    font-size: 16px;
+    font-weight: 700;
+	margin-bottom: 6px;
+}
+
+.cookiescript_category_description {
+	font-size: 13px;
+	padding-bottom: 5px;
+	line-height: 1.6;
+}
+
+.cookiescript_fsd_cookies {
+	border: 1px solid #e2e2e2;
+	border-radius: 10px;
+	overflow-y: auto;
+	margin-top: 15px;
+	max-height: 222px;
+    order: 2;
+		transition: max-height 300ms ease, opacity 200ms ease 300ms, margin-top 100ms ease 100ms;
+	}
+
+.cookiescript_fsd_cookies caption {
+    font-weight: 600;
+    padding: 10px;
+    text-align: left;
+    color: #1C1C1C;
+    caption-side: top;
+}
+
+
+.cookiescript_fsd_cookies_control {
+    color: #5448ee;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    margin-top: 10px;
+    cursor: pointer;
+    order: 3
+}
+
+.cookiescript_fsd_cookies_control .cookiescript_hidden {
+    display: none;
+}
+
+.cookiescript_fsd_cookies_control  span{
+	margin-right: 7px;
+}
+
+.cookiescript_fsd_cookies_control svg {
+    width: 10px;
+    height: 10px;
+    font-size: 10px;
+}
+
+.cookiescript_fsd_cookies_control.active svg {
+    width: 10px;
+    height: 10px;
+    font-size: 10px;
+    transform: rotate(180deg);
+}
+
+.cookiescript_fsd_cookies_table {
+    width: 100%;
+}
+
+.cookiescript_fsd_cookies_table,
+.cookiescript_fsd_cookies_table tbody,
+.cookiescript_fsd_cookies_table thead,
+.cookiescript_fsd_cookies_table tr,
+.cookiescript_fsd_cookies_table th,
+.cookiescript_fsd_cookies_table td {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+    vertical-align: baseline;
+    background-color: #ffffff;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+
+.cookiescript_fsd_cookies_table tr:last-child td{
+    border-bottom: 0;
+}
+
+.cookiescript_fsd_cookies_table td, .cookiescript_fsd_cookies_table th {
+    white-space: normal;
+    font-size: 13px;
+    text-align: left;
+    margin: 0;
+}
+.cookiescript_fsd_cookies_table th {
+	font-weight: 600;
+	padding: 8px 8px;
+	line-height: 1.4;
+	word-break: keep-all;
+	vertical-align: middle;
+}
+
+.cookiescript_fsd_cookies_table td {
+	padding: 7px 8px;
+	line-height: 1.6;
+	vertical-align: top;
+	font-weight: 400;
+	border: 0;
+	border-top: 1px solid #e2e2e2;
+	color: #1C1C1C;
+}
+
+.cookiescript_fsd_cookies_table th:last-child {
+    padding-right: 10px;
+}
+
+    .cookiescript_fsd_cookies_table td:nth-child(1), .cookiescript_fsd_cookies_table th:nth-child(1) {
+    padding-left: 15px;
+    word-break: normal;
+}
+
+.cookiescript_fsd_cookies_table td:nth-child(2) {
+    color: #5448ee;
+}
+
+.cookiescript_fsd_cookies_table td:nth-child(3), .cookiescript_fsd_cookies_table th:nth-child(3) {
+    text-align: center;
+}
+
+.cookiescript_fsd_cookies_table.cookiescript_fsd_storage_table td:nth-child(2) {
+     color: #1C1C1C;
+}
+
+.cookiescript_vendor_name a{
+	text-decoration: underline;
+	font-weight: bold;
+	color: #5448ee;
+	line-height: normal;
+	border: 0;
+	padding: 0;
+	margin: 0;
+	background: transparent;
+	font-size: 13px;
+}
+.cookiescript_vendor_name a:hover {
+	text-decoration: underline;
+	color: #5448ee;
+}
+.cookiescript_vendor_address {
+    margin-top: 10px;
+    font-style: italic;
+}
+.cookiescript_vendor_address > span {
+    font-weight: 600;
+    font-style: normal;
+}
+
+.cookiescript_fsd_footer {
+    border-top: 1px solid #e2e2e2;
+    width: 100%;
+	background-color: #ffffff;
+    position: relative;
+}
+#cookiescript_fsd_wrapper #cookiescript_declarationwrap{
+		transition: opacity 200ms ease 0ms, height 0ms ease 200ms;
+	}
+#cookiescript_fsd_wrapper #cookiescript_aboutwrap{
+	font-size: 13px;
+	padding: 23px 0;
+	line-height: 1.6;
+	text-align: left;
+	font-weight: normal;
+	box-sizing: border-box;
+	transition: opacity 200ms ease 0ms;
+	overflow: auto;
+	min-height: 181px;
+}
+#cookiescript_fsd_wrapper #cookiescript_aboutwrap a,
+#cookiescript_fsd_wrapper #cookiescript_aboutwrap a:hover{
+    color: #5448ee;
+    text-decoration: underline;
+}
+
+#cookiescript_setting_advertising_wrap {
+    font-size: 12px;
+}
+.cookiescript_cross_domain{
+    margin-top:10px;
+}
+#cookiescript_iab_type {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #e2e2e2;
+    flex-wrap: wrap;
+}
+
+#cookiescript_iab_type > div {
+    cursor: pointer;
+    padding: 0 9px;
+    font-size: 11px;
+    font-weight: 600;
+    background: #f5f5f5;
+    color: #1C1C1C;
+    line-height: 2;
+    margin: 3px 5px;
+    white-space: nowrap;
+}
+
+#cookiescript_iab_type .cookiescript_active {
+    background: #5448ee;
+    color: #FEFEFE;
+}
+
+
+.cookiescript_fsd_cookies::-webkit-scrollbar-track,
+.cookiescript_fsd_tabs_content::-webkit-scrollbar-track {
+    background-color: #DADADA;
+}
+
+.cookiescript_fsd_cookies::-webkit-scrollbar,
+.cookiescript_fsd_tabs_content::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+.cookiescript_fsd_cookies::-webkit-scrollbar-thumb,
+.cookiescript_fsd_tabs_content::-webkit-scrollbar-thumb {
+    background-color: #5448ee;
+}
+
+
+
+@media screen and (min-width:0\0) and (min-resolution: .001dpcm) {
+    #cookiescript_iab_type > div{
+        display:inline-block;
+    }
+}
+
+/* --- OVERRIDE ----*/
+
+#cookiescript_injected_fsd #cookiescript_close {
+ 
+	top: 20px;
+    right: 20px;
+	font-size: 37px;
+	color: #1C1C1C;
+	height: 18px;
+	width: 18px;
+    position: absolute;
+    margin:0;
+}
+
+#cookiescript_injected_fsd #cookiescript_show_all_partners_button {
+    color: #5448ee;
+    margin-bottom: 0;
+    margin-top: 12px;
+    display: inline-block;
+}
+
+#cookiescript_injected_fsd #cookiescript_buttons {
+    justify-content: flex-start;
+    padding: 5px 15px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#cookiescript_injected_fsd #cookiescript_accept, #cookiescript_injected_fsd #cookiescript_save, #cookiescript_injected_fsd #cookiescript_reject {
+		flex-grow: unset;
+		padding: 0px 25px;
+	margin: 10px 5px;
+	font-size: 13px;
+	line-height: 3;
+}
+#cookiescript_injected_fsd #cookiescript_buttons{
+	flex-direction: row;
+}
+#cookiescript_injected_fsd #cookiescript_buttons #cookiescript_reject {
+    margin-right: auto;
+}
+
+#cookiescript_injected_fsd .cookiescript-iab-itemContainer {
+    border: 1px solid #e2e2e2;
+	background-color: #ffffff;
+	padding: 10px;
+}
+
+#cookiescript_injected_fsd .cookiescript-iab-header,
+#cookiescript_injected_fsd .cookiescript-iab-itemHeader,
+#cookiescript_injected_fsd .cookiescript-iab-itemHeaderAction {
+    color: #1C1C1C;
+}
+
+#cookiescript_injected_fsd .cookiescript-iab-itemHeaderAction {
+    border-color: #1C1C1C;
+}
+
+#cookiescript_injected_fsd #cookiescript_accept {
+    background-color: #ffffff;
+    color: #4d4d4d;
+    border: 1px solid #4d4d4d;
+    order: 1}
+
+#cookiescript_injected_fsd #cookiescript_accept:hover {
+    background-color: #ebebeb;
+}
+
+#cookiescript_injected_fsd #cookiescript_reject {
+    background-color: #ffffff;
+    color: #4d4d4d;
+    border: 1px solid #4d4d4d;
+    order: 2}
+
+#cookiescript_injected_fsd #cookiescript_reject:hover {
+    background-color: #ebebeb;
+}
+
+#cookiescript_injected_fsd #cookiescript_save {
+    display: inline-block;
+    background-color: #5448ee;
+    color: #ffffff;
+    border: 1px solid #5448ee;
+    order: 3}
+
+#cookiescript_injected_fsd #cookiescript_save:hover {
+    background-color: #4e43db;
+}
+.cookiescript_fsd_reportby{
+    position: absolute;
+    bottom: -20px;
+    right: 20px;
+    color: #FFFFFF;
+    display: inline;
+    font-size: 13px;
+}
+#cookiescript_fsd_reportlink, #cookiescript_fsd_cookiescriptlink {
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    margin: 0;
+    transition: all 100ms ease 0s;
+    background-color: transparent;
+    color: #FFFFFF;
+    display: inline;
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+/*Switches color reload*/
+#cookiescript_injected_fsd .mdc-switch.mdc-switch--selected:enabled .mdc-switch__handle::after {
+    background: #5448ee;
+}
+
+#cookiescript_injected_fsd .mdc-switch.mdc-switch--selected:enabled:hover:not(:focus):not(:active) .mdc-switch__handle::after {
+    background: #5246e7;
+}
+
+#cookiescript_injected_fsd .mdc-switch.mdc-switch--selected:enabled:focus:not(:active) .mdc-switch__handle::after {
+    background: #5246e7;
+}
+
+#cookiescript_injected_fsd .mdc-switch.mdc-switch--selected:enabled:active .mdc-switch__handle::after {
+    background: #5246e7;
+}
+
+#cookiescript_injected_fsd .mdc-switch.mdc-switch--selected:enabled:hover:not(:focus) .mdc-switch__ripple::before,
+#cookiescript_injected_fsd .mdc-switch.mdc-switch--selected:enabled:hover:not(:focus) .mdc-switch__ripple::after{
+    background: #5448ee;
+}
+
+#cookiescript_injected_fsd .mdc-switch.mdc-switch--selected:enabled:focus .mdc-switch__ripple::before,
+#cookiescript_injected_fsd .mdc-switch.mdc-switch--selected:enabled:focus .mdc-switch__ripple::after {
+    background: #5448ee;
+}
+
+#cookiescript_injected_fsd .mdc-switch.mdc-switch--selected:enabled:active .mdc-switch__ripple::before,
+#cookiescript_injected_fsd .mdc-switch.mdc-switch--selected:enabled:active .mdc-switch__ripple::after {
+    background: #5448ee;
+}
+
+#cookiescript_injected_fsd .mdc-switch:enabled .mdc-switch__track::after {
+    background: #5448ee;
+    opacity: 0.3;
+}
+
+#cookiescript_injected_fsd .mdc-switch:enabled:hover:not(:focus):not(:active) .mdc-switch__track::after {
+    background: #5448ee;
+    opacity: 0.3;
+}
+
+#cookiescript_injected_fsd .mdc-switch:enabled:focus:not(:active) .mdc-switch__track::after {
+    background: #5448ee;
+    opacity: 0.3;
+}
+
+#cookiescript_injected_fsd .mdc-switch:enabled:active .mdc-switch__track::after {
+    background: #5448ee;
+    opacity: 0.3;
+}
+
+
+#cookiescript_fsd_wrapper {
+    border-radius: 25px;
+}
+.cookiescript_fsd_header {
+    border-radius: 25px 25px 0 0;
+}
+.cookiescript_fsd_footer {
+    border-radius: 0 0 25px 25px;
+}
+#cookiescript_iab_type > div {
+    border-radius: 25px;
+}
+.cookiescript_fsd_cookies::-webkit-scrollbar-track,
+.cookiescript_fsd_tabs_content::-webkit-scrollbar-track
+#cookiescript_iabwrap::-webkit-scrollbar-thumb,
+#cookiescript_aboutwrap::-webkit-scrollbar-thumb{
+    border-radius: 6px;
+}
+.cookiescript_fsd_cookies::-webkit-scrollbar-thumb,
+.cookiescript_fsd_tabs_content::-webkit-scrollbar-thumb,
+#cookiescript_iabwrap::-webkit-scrollbar-thumb,
+#cookiescript_aboutwrap::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+}
+#cookiescript_injected_fsd #cookiescript_accept,
+#cookiescript_injected_fsd #cookiescript_save,
+#cookiescript_injected_fsd #cookiescript_reject{
+    border-radius: 30px;
+}
+
+@media only screen and (max-width: 440px) {
+    .cookiescript_fsd_header {
+        border-radius: 0;
+    }
+    .cookiescript_fsd_footer {
+        border-radius: 0;
+    }
+}
+@media only screen and (max-width: 440px) {
+	#cookiescript_fsd_wrapper {
+		width: 100%;
+		height: 100%;
+		max-height: 100%;
+		top: 0;
+		border-radius: 0;
+		margin: 0;
+	}
+
+	.cookiescript_fsd_main_info {
+		padding: 13px 20px;
+		overflow-y: auto;
+		max-height: 140px;
+	}
+	.cookiescript_fsd_description{
+		margin-top: 8px;
+	}
+	.cookiescript_fsd_tabs > div {
+		padding: 6px;
+		font-size: 12px;
+	}
+
+	.cookiescript_fsd_tabs_content {
+		padding: 5px 20px 10px 20px;
+	}
+
+	.cookiescript_fsd_cookies_table thead {
+		display: none;
+	}
+
+	.cookiescript_fsd_cookies_table td {
+		display: flex;
+		border-bottom: 0px;
+	}
+
+	.cookiescript_fsd_cookies_table tr td:last-child {
+		border-bottom: 0;
+	}
+
+	.cookiescript_fsd_cookies_table td {
+		border-top: 0;
+	}
+
+	.cookiescript_fsd_cookies_table td::before {
+		content: attr(label);
+		font-weight: bold;
+		width: 120px;
+		min-width: 120px;
+		text-align: left;
+	}
+
+	.cookiescript_fsd_cookies_table td:nth-child(2):before {
+		color: #1C1C1C;
+	}
+
+	.cookiescript_category_description {
+		text-align: left;
+	}
+
+	.cookiescript_fsd_cookies_table td:nth-child(1),
+	.cookiescript_fsd_cookies_table th:nth-child(1) {
+		padding-left: 7px;
+		font-weight: bold;
+		border-top: 1px solid #e2e2e2;
+	}
+
+	.cookiescript_fsd_cookies_table tr:nth-child(1) td:nth-child(1),
+	.cookiescript_fsd_cookies_table tr:nth-child(1) th:nth-child(1) {
+		border-top: 0px;
+	}
+
+	.cookiescript_fsd_cookies_table td:last-child {
+		border-bottom: none;
+	}
+
+	.cookiescript_fsd_cookies_table tr:nth-child(even) {
+		background: #f5f5f5;
+	}
+
+	.cookiescript_fsd_cookies_table tr:nth-child(even) td {
+		border-bottom: 0px solid #FFF;
+	}
+
+	#cookiescript_injected_fsd #cookiescript_buttons {
+		margin-bottom: 0;
+	}
+
+	#cookiescript_injected_fsd #cookiescript_buttons #cookiescript_accept,
+	#cookiescript_injected_fsd #cookiescript_buttons #cookiescript_save,
+	#cookiescript_injected_fsd #cookiescript_buttons #cookiescript_reject {
+		flex-grow: 1;
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		padding: 0 15px;
+	}
+
+	.cookiescript_fsd_language_drop_down {
+		right: 40px;
+	}
+
+	#cookiescript_injected_fsd #cookiescript_close{
+		right:14px;
+	}
+    .cookiescript_fsd_reportby {
+        position: relative;
+        bottom: 0;
+        right: auto;
+        color: #1C1C1C;
+        font-size: 12px;
+        padding: 0 20px 10px 21px;
+        max-width: 100%;
+        opacity: 0.8;
+        display: none;
+    }
+    #cookiescript_fsd_reportlink, #cookiescript_fsd_cookiescriptlink{
+        color: #1C1C1C;
+        font-size: 12px;
+    }
+
+    #cookiescript_fsd_wrapper .cookiescript-extra-links{
+        flex-direction: column;
+    }
+    
+}
+
+
+
+
+
+.cookiescript_rtl {
+    direction:rtl;
+}
+
+/*Start Checkboxes*/
+#cookiescript_injected_fsd .mdc-checkbox,
+#cookiescript_injected .mdc-checkbox {
+    box-sizing: content-box !important;
+}
+#cookiescript_injected_fsd .mdc-checkbox__native-control,
+#cookiescript_injected .mdc-checkbox__native-control {
+    display: block;
+    z-index: 1;
+}
+#cookiescript_injected_fsd .mdc-checkbox .mdc-checkbox__native-control:focus~.mdc-checkbox__background::before, 
+#cookiescript_injected .mdc-checkbox .mdc-checkbox__native-control:focus~.mdc-checkbox__background::before, 
+#cookiescript_injected_fsd .mdc-checkbox .mdc-checkbox__native-control:indeterminate~.mdc-checkbox__background::before,
+#cookiescript_injected .mdc-checkbox .mdc-checkbox__native-control:indeterminate~.mdc-checkbox__background::before {
+    background-color: #FFFFFF;
+}
+#cookiescript_injected .mdc-checkbox,#cookiescript_injected_fsd .mdc-checkbox{display:inline-block;position:relative;flex:0 0 18px;box-sizing:content-box;width:18px;height:18px;line-height:0;white-space:nowrap;cursor:pointer;vertical-align:bottom;padding:11px}#cookiescript_injected .mdc-checkbox .mdc-checkbox__native-control:checked~.mdc-checkbox__background::before,#cookiescript_injected .mdc-checkbox .mdc-checkbox__native-control:indeterminate~.mdc-checkbox__background::before,#cookiescript_injected_fsd .mdc-checkbox .mdc-checkbox__native-control:checked~.mdc-checkbox__background::before,#cookiescript_injected_fsd .mdc-checkbox .mdc-checkbox__native-control:indeterminate~.mdc-checkbox__background::before{background-color:#5448ee}@supports not (-ms-ime-align:auto){#cookiescript_injected .mdc-checkbox .mdc-checkbox__native-control:checked~.mdc-checkbox__background::before,#cookiescript_injected .mdc-checkbox .mdc-checkbox__native-control:indeterminate~.mdc-checkbox__background::before,#cookiescript_injected_fsd .mdc-checkbox .mdc-checkbox__native-control:checked~.mdc-checkbox__background::before,#cookiescript_injected_fsd .mdc-checkbox .mdc-checkbox__native-control:indeterminate~.mdc-checkbox__background::before{background-color:var(--mdc-theme-secondary, #5448ee)}}#cookiescript_injected .mdc-checkbox .mdc-checkbox__background,#cookiescript_injected_fsd .mdc-checkbox .mdc-checkbox__background{top:11px;left:11px}#cookiescript_injected .mdc-checkbox .mdc-checkbox__background::before,#cookiescript_injected_fsd .mdc-checkbox .mdc-checkbox__background::before{top:-13px;left:-13px;width:40px;height:40px}#cookiescript_injected .mdc-checkbox .mdc-checkbox__native-control,#cookiescript_injected_fsd .mdc-checkbox .mdc-checkbox__native-control{top:0;right:0;left:0;width:40px;height:40px}#cookiescript_injected .mdc-checkbox__native-control:enabled:not(:checked):not(:indeterminate)~.mdc-checkbox__background,#cookiescript_injected_fsd .mdc-checkbox__native-control:enabled:not(:checked):not(:indeterminate)~.mdc-checkbox__background{border-color:#2d2d2d;background-color:transparent}#cookiescript_injected .mdc-checkbox__native-control:enabled:checked~.mdc-checkbox__background,#cookiescript_injected .mdc-checkbox__native-control:enabled:indeterminate~.mdc-checkbox__background,#cookiescript_injected_fsd .mdc-checkbox__native-control:enabled:checked~.mdc-checkbox__background,#cookiescript_injected_fsd .mdc-checkbox__native-control:enabled:indeterminate~.mdc-checkbox__background{border-color:#5448ee;background-color:#5448ee}#cookiescript_injected .mdc-checkbox__native-control[disabled]:not(:checked):not(:indeterminate)~.mdc-checkbox__background,#cookiescript_injected_fsd .mdc-checkbox__native-control[disabled]:not(:checked):not(:indeterminate)~.mdc-checkbox__background{border-color:rgba(84,72,238,0.26);background-color:transparent}#cookiescript_injected .mdc-checkbox__native-control[disabled]:checked~.mdc-checkbox__background,#cookiescript_injected .mdc-checkbox__native-control[disabled]:indeterminate~.mdc-checkbox__background,#cookiescript_injected_fsd .mdc-checkbox__native-control[disabled]:checked~.mdc-checkbox__background,#cookiescript_injected_fsd .mdc-checkbox__native-control[disabled]:indeterminate~.mdc-checkbox__background{border-color:transparent;background-color:rgba(84,72,238,0.26)}#cookiescript_injected .mdc-checkbox__native-control:enabled~.mdc-checkbox__background .mdc-checkbox__checkmark,#cookiescript_injected_fsd .mdc-checkbox__native-control:enabled~.mdc-checkbox__background .mdc-checkbox__checkmark{color:#FFFFFF}#cookiescript_injected .mdc-checkbox__native-control:disabled~.mdc-checkbox__background .mdc-checkbox__checkmark,#cookiescript_injected_fsd .mdc-checkbox__native-control:disabled~.mdc-checkbox__background .mdc-checkbox__checkmark{color:#FFFFFF}#cookiescript_injected .mdc-checkbox__background,#cookiescript_injected_fsd .mdc-checkbox__background{display:inline-flex;position:absolute;align-items:center;justify-content:center;box-sizing:border-box;width:18px;height:18px;border:2px solid #5448ee;border-radius:2px;background-color:transparent;pointer-events:none;will-change:background-color,border-color;transition:background-color 90ms 0s cubic-bezier(.4,0,.6,1),border-color 90ms 0s cubic-bezier(.4,0,.6,1)}#cookiescript_injected .mdc-checkbox__background .mdc-checkbox__background::before,#cookiescript_injected_fsd .mdc-checkbox__background .mdc-checkbox__background::before{background-color:#000}@supports not (-ms-ime-align:auto){#cookiescript_injected .mdc-checkbox__checkmark,#cookiescript_injected_fsd .mdc-checkbox__checkmark{position:absolute;top:0;right:0;bottom:0;left:0;width:100%;opacity:0;transition:opacity 180ms 0s cubic-bezier(.4,0,.6,1)}#cookiescript_injected .mdc-checkbox__checkmark-path,#cookiescript_injected_fsd .mdc-checkbox__checkmark-path{transition:stroke-dashoffset 180ms 0s cubic-bezier(.4,0,.6,1);stroke:currentColor;stroke-width:5px;stroke-dashoffset:29.7833385;stroke-dasharray:29.7833385}#cookiescript_injected .mdc-checkbox__native-control:checked~.mdc-checkbox__background,#cookiescript_injected .mdc-checkbox__native-control:indeterminate~.mdc-checkbox__background,#cookiescript_injected_fsd .mdc-checkbox__native-control:checked~.mdc-checkbox__background,#cookiescript_injected_fsd .mdc-checkbox__native-control:indeterminate~.mdc-checkbox__background{transition:border-color 90ms 0s cubic-bezier(0,0,.2,1),background-color 90ms 0s cubic-bezier(0,0,.2,1)}#cookiescript_injected .mdc-checkbox__native-control:checked~.mdc-checkbox__background .mdc-checkbox__checkmark-path,#cookiescript_injected .mdc-checkbox__native-control:indeterminate~.mdc-checkbox__background .mdc-checkbox__checkmark-path,#cookiescript_injected_fsd .mdc-checkbox__native-control:checked~.mdc-checkbox__background .mdc-checkbox__checkmark-path,#cookiescript_injected_fsd .mdc-checkbox__native-control:indeterminate~.mdc-checkbox__background .mdc-checkbox__checkmark-path{stroke-dashoffset:0}#cookiescript_injected .mdc-checkbox__background::before,#cookiescript_injected_fsd .mdc-checkbox__background::before{position:absolute;-webkit-transform:scale(0,0);transform:scale(0,0);border-radius:50%;opacity:0;pointer-events:none;content:"";will-change:opacity,transform;transition:opacity 90ms 0s cubic-bezier(.4,0,.6,1),-webkit-transform 90ms 0s cubic-bezier(.4,0,.6,1);transition:opacity 90ms 0s cubic-bezier(.4,0,.6,1),transform 90ms 0s cubic-bezier(.4,0,.6,1);transition:opacity 90ms 0s cubic-bezier(.4,0,.6,1),transform 90ms 0s cubic-bezier(.4,0,.6,1),-webkit-transform 90ms 0s cubic-bezier(.4,0,.6,1)}#cookiescript_injected .mdc-checkbox__native-control:focus~.mdc-checkbox__background::before,#cookiescript_injected_fsd .mdc-checkbox__native-control:focus~.mdc-checkbox__background::before{-webkit-transform:scale(1);transform:scale(1);opacity:.12;transition:opacity 80ms 0s cubic-bezier(0,0,.2,1),-webkit-transform 80ms 0s cubic-bezier(0,0,.2,1);transition:opacity 80ms 0s cubic-bezier(0,0,.2,1),transform 80ms 0s cubic-bezier(0,0,.2,1);transition:opacity 80ms 0s cubic-bezier(0,0,.2,1),transform 80ms 0s cubic-bezier(0,0,.2,1),-webkit-transform 80ms 0s cubic-bezier(0,0,.2,1)}#cookiescript_injected .mdc-checkbox__native-control,#cookiescript_injected_fsd .mdc-checkbox__native-control{position:absolute;margin:0;padding:0;opacity:0;cursor:inherit}#cookiescript_injected .mdc-checkbox__native-control:disabled,#cookiescript_injected_fsd .mdc-checkbox__native-control:disabled{cursor:default;pointer-events:none}#cookiescript_injected .mdc-checkbox__native-control:checked~.mdc-checkbox__background .mdc-checkbox__checkmark,#cookiescript_injected_fsd .mdc-checkbox__native-control:checked~.mdc-checkbox__background .mdc-checkbox__checkmark{transition:opacity 180ms 0s cubic-bezier(0,0,.2,1),-webkit-transform 180ms 0s cubic-bezier(0,0,.2,1);transition:opacity 180ms 0s cubic-bezier(0,0,.2,1),transform 180ms 0s cubic-bezier(0,0,.2,1);transition:opacity 180ms 0s cubic-bezier(0,0,.2,1),transform 180ms 0s cubic-bezier(0,0,.2,1),-webkit-transform 180ms 0s cubic-bezier(0,0,.2,1);opacity:1}#cookiescript_injected .mdc-checkbox__native-control:indeterminate~.mdc-checkbox__background .mdc-checkbox__checkmark,#cookiescript_injected_fsd .mdc-checkbox__native-control:indeterminate~.mdc-checkbox__background .mdc-checkbox__checkmark{-webkit-transform:rotate(45deg);transform:rotate(45deg);opacity:0;transition:opacity 90ms 0s cubic-bezier(.4,0,.6,1),-webkit-transform 90ms 0s cubic-bezier(.4,0,.6,1);transition:opacity 90ms 0s cubic-bezier(.4,0,.6,1),transform 90ms 0s cubic-bezier(.4,0,.6,1);transition:opacity 90ms 0s cubic-bezier(.4,0,.6,1),transform 90ms 0s cubic-bezier(.4,0,.6,1),-webkit-transform 90ms 0s cubic-bezier(.4,0,.6,1)}#cookiescript_injected .mdc-checkbox,#cookiescript_injected_fsd .mdc-checkbox{-webkit-tap-highlight-color:transparent}}
+/*updated checkboxes*/
+#cookiescript_injected .mdc-checkbox .mdc-checkbox__native-control, #cookiescript_injected_fsd .mdc-checkbox .mdc-checkbox__native-control{
+    width:47px;
+    height:47px;
+}
+#cookiescript_injected .mdc-checkbox, #cookiescript_injected_fsd .mdc-checkbox{
+    flex: 0 0 25px;
+    width: 25px;
+    height: 25px;
+}
+#cookiescript_injected .mdc-checkbox .mdc-checkbox__background::before, #cookiescript_injected_fsd .mdc-checkbox .mdc-checkbox__background::before{
+    width:0;
+    height: 0;
+}
+#cookiescript_injected_fsd .mdc-checkbox .mdc-checkbox__native-control:focus~.mdc-checkbox__background,
+#cookiescript_injected .mdc-checkbox .mdc-checkbox__native-control:focus~.mdc-checkbox__background{
+    outline: 1px auto highlight;
+}
+
+
+#cookiescript_injected .mdc-checkbox__background{
+    width: 25px;
+    height: 25px;
+    border-radius:8px;
+}
+/*End Checkboxes*/
+
+
+/*Start Toggle*/
+
+#cookiescript_injected .mdc-elevation-overlay,#cookiescript_injected_fsd .mdc-elevation-overlay{position:absolute;border-radius:inherit;pointer-events:none;opacity:0;transition:opacity 280ms cubic-bezier(.4,0,.2,1);background-color:#fff}#cookiescript_injected .mdc-switch,#cookiescript_injected_fsd .mdc-switch{align-items:center;background:0 0;border:none;cursor:pointer;display:inline-flex;flex-shrink:0;margin:0;outline:0;overflow:visible;padding:0;position:relative}#cookiescript_injected .mdc-switch:disabled,#cookiescript_injected_fsd .mdc-switch:disabled{cursor:default;pointer-events:none}#cookiescript_injected .mdc-switch input[type=checkbox],#cookiescript_injected_fsd .mdc-switch input[type=checkbox]{display:none;visibility:hidden}#cookiescript_injected .mdc-switch__track,#cookiescript_injected_fsd .mdc-switch__track{overflow:hidden;position:relative;width:100%}#cookiescript_injected .mdc-switch__track::after,#cookiescript_injected .mdc-switch__track::before,#cookiescript_injected_fsd .mdc-switch__track::after,#cookiescript_injected_fsd .mdc-switch__track::before{border:1px solid transparent;border-radius:inherit;box-sizing:border-box;content:"";height:100%;left:0;position:absolute;width:100%}#cookiescript_injected .mdc-switch__track::before,#cookiescript_injected_fsd .mdc-switch__track::before{transition:-webkit-transform 75ms 0s cubic-bezier(0,0,.2,1);transition:transform 75ms 0s cubic-bezier(0,0,.2,1);-webkit-transform:translateX(0);transform:translateX(0)}#cookiescript_injected .mdc-switch__track::after,#cookiescript_injected_fsd .mdc-switch__track::after{transition:-webkit-transform 75ms 0s cubic-bezier(.4,0,.6,1);transition:transform 75ms 0s cubic-bezier(.4,0,.6,1);-webkit-transform:translateX(-100%);transform:translateX(-100%)}#cookiescript_injected .mdc-switch__track[dir=rtl]::after,#cookiescript_injected [dir=rtl] .mdc-switch__track::after,#cookiescript_injected_fsd .mdc-switch__track[dir=rtl]::after,#cookiescript_injected_fsd [dir=rtl] .mdc-switch__track::after{-webkit-transform:translateX(100%);transform:translateX(100%)}#cookiescript_injected .mdc-switch--selected .mdc-switch__track::before,#cookiescript_injected_fsd .mdc-switch--selected .mdc-switch__track::before{transition:-webkit-transform 75ms 0s cubic-bezier(.4,0,.6,1);transition:transform 75ms 0s cubic-bezier(.4,0,.6,1);-webkit-transform:translateX(100%);transform:translateX(100%)}#cookiescript_injected .mdc-switch--selected .mdc-switch__track[dir=rtl]::before,#cookiescript_injected [dir=rtl] .mdc-switch--selected .mdc-switch__track::before,#cookiescript_injected_fsd .mdc-switch--selected .mdc-switch__track[dir=rtl]::before,#cookiescript_injected_fsd [dir=rtl] .mdc-switch--selected .mdc-switch__track::before{-webkit-transform:translateX(-100%);transform:translateX(-100%)}#cookiescript_injected .mdc-switch--selected .mdc-switch__track::after,#cookiescript_injected_fsd .mdc-switch--selected .mdc-switch__track::after{transition:-webkit-transform 75ms 0s cubic-bezier(0,0,.2,1);transition:transform 75ms 0s cubic-bezier(0,0,.2,1);-webkit-transform:translateX(0);transform:translateX(0)}#cookiescript_injected .mdc-switch__handle-track,#cookiescript_injected_fsd .mdc-switch__handle-track{height:100%;pointer-events:none;position:absolute;top:0;transition:-webkit-transform 75ms 0s cubic-bezier(.4,0,.2,1);transition:transform 75ms 0s cubic-bezier(.4,0,.2,1);left:0;right:auto;-webkit-transform:translateX(0);transform:translateX(0)}#cookiescript_injected .mdc-switch__handle-track[dir=rtl],#cookiescript_injected [dir=rtl] .mdc-switch__handle-track,#cookiescript_injected_fsd .mdc-switch__handle-track[dir=rtl],#cookiescript_injected_fsd [dir=rtl] .mdc-switch__handle-track{left:auto;right:0}#cookiescript_injected .mdc-switch--selected .mdc-switch__handle-track,#cookiescript_injected_fsd .mdc-switch--selected .mdc-switch__handle-track{-webkit-transform:translateX(100%);transform:translateX(100%)}#cookiescript_injected .mdc-switch--selected .mdc-switch__handle-track[dir=rtl],#cookiescript_injected [dir=rtl] .mdc-switch--selected .mdc-switch__handle-track,#cookiescript_injected_fsd .mdc-switch--selected .mdc-switch__handle-track[dir=rtl],#cookiescript_injected_fsd [dir=rtl] .mdc-switch--selected .mdc-switch__handle-track{-webkit-transform:translateX(-100%);transform:translateX(-100%)}#cookiescript_injected .mdc-switch__handle,#cookiescript_injected_fsd .mdc-switch__handle{display:flex;pointer-events:auto;position:absolute;top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%);left:0;right:auto}#cookiescript_injected .mdc-switch__handle[dir=rtl],#cookiescript_injected [dir=rtl] .mdc-switch__handle,#cookiescript_injected_fsd .mdc-switch__handle[dir=rtl],#cookiescript_injected_fsd [dir=rtl] .mdc-switch__handle{left:auto;right:0}#cookiescript_injected .mdc-switch__handle::after,#cookiescript_injected .mdc-switch__handle::before,#cookiescript_injected_fsd .mdc-switch__handle::after,#cookiescript_injected_fsd .mdc-switch__handle::before{border:1px solid transparent;border-radius:inherit;box-sizing:border-box;content:"";width:100%;height:100%;left:0;position:absolute;top:0;transition:background-color 75ms 0s cubic-bezier(.4,0,.2,1),border-color 75ms 0s cubic-bezier(.4,0,.2,1);z-index:-1}#cookiescript_injected .mdc-switch__shadow,#cookiescript_injected_fsd .mdc-switch__shadow{border-radius:inherit;bottom:0;left:0;position:absolute;right:0;top:0}#cookiescript_injected .mdc-elevation-overlay,#cookiescript_injected_fsd .mdc-elevation-overlay{bottom:0;left:0;right:0;top:0}#cookiescript_injected .mdc-switch__ripple,#cookiescript_injected_fsd .mdc-switch__ripple{left:50%;position:absolute;top:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);z-index:-1}#cookiescript_injected .mdc-switch:disabled .mdc-switch__ripple,#cookiescript_injected_fsd .mdc-switch:disabled .mdc-switch__ripple{display:none}#cookiescript_injected .mdc-switch__icons,#cookiescript_injected_fsd .mdc-switch__icons{height:100%;position:relative;width:100%;z-index:1}#cookiescript_injected .mdc-switch__icon,#cookiescript_injected_fsd .mdc-switch__icon{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0;opacity:0;transition:opacity 30ms 0s cubic-bezier(.4,0,1,1)}#cookiescript_injected .mdc-switch--selected .mdc-switch__icon--on,#cookiescript_injected .mdc-switch--unselected .mdc-switch__icon--off,#cookiescript_injected_fsd .mdc-switch--selected .mdc-switch__icon--on,#cookiescript_injected_fsd .mdc-switch--unselected .mdc-switch__icon--off{opacity:1;transition:opacity 45ms 30ms cubic-bezier(0,0,.2,1)}#cookiescript_injected .mdc-switch,#cookiescript_injected_fsd .mdc-switch{will-change:transform,opacity}@-webkit-keyframes mdc-ripple-fg-radius-in{from{-webkit-animation-timing-function:cubic-bezier(.4,0,.2,1);animation-timing-function:cubic-bezier(.4,0,.2,1);-webkit-transform:translate(0) scale(1);transform:translate(0) scale(1)}to{-webkit-transform:translate(0) scale(1);transform:translate(0) scale(1)}}@keyframes mdc-ripple-fg-radius-in{from{-webkit-animation-timing-function:cubic-bezier(.4,0,.2,1);animation-timing-function:cubic-bezier(.4,0,.2,1);-webkit-transform:translate(0) scale(1);transform:translate(0) scale(1)}to{-webkit-transform:translate(0) scale(1);transform:translate(0) scale(1)}}@-webkit-keyframes mdc-ripple-fg-opacity-in{from{-webkit-animation-timing-function:linear;animation-timing-function:linear;opacity:0}to{opacity:.1}}@keyframes mdc-ripple-fg-opacity-in{from{-webkit-animation-timing-function:linear;animation-timing-function:linear;opacity:0}to{opacity:.1}}@-webkit-keyframes mdc-ripple-fg-opacity-out{from{-webkit-animation-timing-function:linear;animation-timing-function:linear;opacity:.1}to{opacity:0}}@keyframes mdc-ripple-fg-opacity-out{from{-webkit-animation-timing-function:linear;animation-timing-function:linear;opacity:.1}to{opacity:0}}#cookiescript_injected .mdc-switch .mdc-switch__ripple::after,#cookiescript_injected .mdc-switch .mdc-switch__ripple::before,#cookiescript_injected_fsd .mdc-switch .mdc-switch__ripple::after,#cookiescript_injected_fsd .mdc-switch .mdc-switch__ripple::before{position:absolute;border-radius:50%;opacity:0;pointer-events:none;content:""}#cookiescript_injected .mdc-switch .mdc-switch__ripple::before,#cookiescript_injected_fsd .mdc-switch .mdc-switch__ripple::before{transition:opacity 15ms linear,background-color 15ms linear;z-index:1}#cookiescript_injected .mdc-switch .mdc-switch__ripple::after,#cookiescript_injected_fsd .mdc-switch .mdc-switch__ripple::after{z-index:0}#cookiescript_injected .mdc-switch.mdc-ripple-upgraded .mdc-switch__ripple::before,#cookiescript_injected_fsd .mdc-switch.mdc-ripple-upgraded .mdc-switch__ripple::before{-webkit-transform:scale(1);transform:scale(1)}#cookiescript_injected .mdc-switch.mdc-ripple-upgraded .mdc-switch__ripple::after,#cookiescript_injected_fsd .mdc-switch.mdc-ripple-upgraded .mdc-switch__ripple::after{top:0;left:0;-webkit-transform:scale(0);transform:scale(0);-webkit-transform-origin:center center;transform-origin:center center}#cookiescript_injected .mdc-switch.mdc-ripple-upgraded--unbounded .mdc-switch__ripple::after,#cookiescript_injected_fsd .mdc-switch.mdc-ripple-upgraded--unbounded .mdc-switch__ripple::after{top:0;left:0}#cookiescript_injected .mdc-switch.mdc-ripple-upgraded--foreground-activation .mdc-switch__ripple::after,#cookiescript_injected_fsd .mdc-switch.mdc-ripple-upgraded--foreground-activation .mdc-switch__ripple::after{-webkit-animation:mdc-ripple-fg-radius-in 225ms forwards,mdc-ripple-fg-opacity-in 75ms forwards;animation:mdc-ripple-fg-radius-in 225ms forwards,mdc-ripple-fg-opacity-in 75ms forwards}#cookiescript_injected .mdc-switch.mdc-ripple-upgraded--foreground-deactivation .mdc-switch__ripple::after,#cookiescript_injected_fsd .mdc-switch.mdc-ripple-upgraded--foreground-deactivation .mdc-switch__ripple::after{-webkit-animation:mdc-ripple-fg-opacity-out 150ms;animation:mdc-ripple-fg-opacity-out 150ms;-webkit-transform:translate(0) scale(1);transform:translate(0) scale(1)}#cookiescript_injected .mdc-switch .mdc-switch__ripple::after,#cookiescript_injected .mdc-switch .mdc-switch__ripple::before,#cookiescript_injected_fsd .mdc-switch .mdc-switch__ripple::after,#cookiescript_injected_fsd .mdc-switch .mdc-switch__ripple::before{top:calc(50% - 50%);left:calc(50% - 50%);width:100%;height:100%}#cookiescript_injected .mdc-switch.mdc-ripple-upgraded .mdc-switch__ripple::after,#cookiescript_injected .mdc-switch.mdc-ripple-upgraded .mdc-switch__ripple::before,#cookiescript_injected_fsd .mdc-switch.mdc-ripple-upgraded .mdc-switch__ripple::after,#cookiescript_injected_fsd .mdc-switch.mdc-ripple-upgraded .mdc-switch__ripple::before{top:0;left:0;width:0;height:0}#cookiescript_injected .mdc-switch.mdc-ripple-upgraded .mdc-switch__ripple::after,#cookiescript_injected_fsd .mdc-switch.mdc-ripple-upgraded .mdc-switch__ripple::after{width:0;height:0}#cookiescript_injected .mdc-switch,#cookiescript_injected_fsd .mdc-switch{width:36px}#cookiescript_injected .mdc-switch.mdc-switch--selected:enabled .mdc-switch__handle::after{background:}#cookiescript_injected .mdc-switch.mdc-switch--selected:enabled:hover:not(:focus):not(:active) .mdc-switch__handle::after{background:}#cookiescript_injected .mdc-switch.mdc-switch--selected:enabled:focus:not(:active) .mdc-switch__handle::after{background:}#cookiescript_injected .mdc-switch.mdc-switch--selected:enabled:active .mdc-switch__handle::after{background:}#cookiescript_injected .mdc-switch.mdc-switch--selected:disabled .mdc-switch__handle::after,#cookiescript_injected_fsd .mdc-switch.mdc-switch--selected:disabled .mdc-switch__handle::after{background:#424242}#cookiescript_injected .mdc-switch.mdc-switch--unselected:enabled .mdc-switch__handle::after,#cookiescript_injected_fsd .mdc-switch.mdc-switch--unselected:enabled .mdc-switch__handle::after{background:#616161}#cookiescript_injected .mdc-switch.mdc-switch--unselected:enabled:hover:not(:focus):not(:active) .mdc-switch__handle::after,#cookiescript_injected_fsd .mdc-switch.mdc-switch--unselected:enabled:hover:not(:focus):not(:active) .mdc-switch__handle::after{background:#212121}#cookiescript_injected .mdc-switch.mdc-switch--unselected:enabled:focus:not(:active) .mdc-switch__handle::after,#cookiescript_injected_fsd .mdc-switch.mdc-switch--unselected:enabled:focus:not(:active) .mdc-switch__handle::after{background:#212121}#cookiescript_injected .mdc-switch.mdc-switch--unselected:enabled:active .mdc-switch__handle::after,#cookiescript_injected_fsd .mdc-switch.mdc-switch--unselected:enabled:active .mdc-switch__handle::after{background:#212121}#cookiescript_injected .mdc-switch.mdc-switch--unselected:disabled .mdc-switch__handle::after,#cookiescript_injected_fsd .mdc-switch.mdc-switch--unselected:disabled .mdc-switch__handle::after{background:#424242}#cookiescript_injected .mdc-switch .mdc-switch__handle::before,#cookiescript_injected_fsd .mdc-switch .mdc-switch__handle::before{background:#fff}#cookiescript_injected .mdc-switch:enabled .mdc-switch__shadow,#cookiescript_injected_fsd .mdc-switch:enabled .mdc-switch__shadow{box-shadow:0 2px 1px -1px rgba(0,0,0,.2),0 1px 1px 0 rgba(0,0,0,.14),0 1px 3px 0 rgba(0,0,0,.12);--mdc-elevation-box-shadow-for-gss:0px 2px 1px -1px rgba(0, 0, 0, 0.2),0px 1px 1px 0px rgba(0, 0, 0, 0.14),0px 1px 3px 0px rgba(0, 0, 0, 0.12)}#cookiescript_injected .mdc-switch:disabled .mdc-switch__shadow,#cookiescript_injected_fsd .mdc-switch:disabled .mdc-switch__shadow{box-shadow:0 0 0 0 rgba(0,0,0,.2),0 0 0 0 rgba(0,0,0,.14),0 0 0 0 rgba(0,0,0,.12);--mdc-elevation-box-shadow-for-gss:0px 0px 0px 0px rgba(0, 0, 0, 0.2),0px 0px 0px 0px rgba(0, 0, 0, 0.14),0px 0px 0px 0px rgba(0, 0, 0, 0.12)}#cookiescript_injected .mdc-switch .mdc-switch__handle,#cookiescript_injected_fsd .mdc-switch .mdc-switch__handle{height:20px}#cookiescript_injected .mdc-switch:disabled .mdc-switch__handle::after,#cookiescript_injected_fsd .mdc-switch:disabled .mdc-switch__handle::after{opacity:.38}#cookiescript_injected .mdc-switch .mdc-switch__handle,#cookiescript_injected_fsd .mdc-switch .mdc-switch__handle{border-radius:10px}#cookiescript_injected .mdc-switch .mdc-switch__handle,#cookiescript_injected_fsd .mdc-switch .mdc-switch__handle{width:20px}#cookiescript_injected .mdc-switch .mdc-switch__handle-track,#cookiescript_injected_fsd .mdc-switch .mdc-switch__handle-track{width:calc(100% - 20px)}#cookiescript_injected .mdc-switch.mdc-switch--selected:enabled .mdc-switch__icon,#cookiescript_injected_fsd .mdc-switch.mdc-switch--selected:enabled .mdc-switch__icon{fill:#fff}#cookiescript_injected .mdc-switch.mdc-switch--selected:disabled .mdc-switch__icon,#cookiescript_injected_fsd .mdc-switch.mdc-switch--selected:disabled .mdc-switch__icon{fill:#fff}#cookiescript_injected .mdc-switch.mdc-switch--unselected:enabled .mdc-switch__icon,#cookiescript_injected_fsd .mdc-switch.mdc-switch--unselected:enabled .mdc-switch__icon{fill:#fff}#cookiescript_injected .mdc-switch.mdc-switch--unselected:disabled .mdc-switch__icon,#cookiescript_injected_fsd .mdc-switch.mdc-switch--unselected:disabled .mdc-switch__icon{fill:#fff}#cookiescript_injected .mdc-switch.mdc-switch--selected:disabled .mdc-switch__icons,#cookiescript_injected_fsd .mdc-switch.mdc-switch--selected:disabled .mdc-switch__icons{opacity:.38}#cookiescript_injected .mdc-switch.mdc-switch--unselected:disabled .mdc-switch__icons,#cookiescript_injected_fsd .mdc-switch.mdc-switch--unselected:disabled .mdc-switch__icons{opacity:.38}#cookiescript_injected .mdc-switch.mdc-switch--selected .mdc-switch__icon,#cookiescript_injected_fsd .mdc-switch.mdc-switch--selected .mdc-switch__icon{width:18px;height:18px}#cookiescript_injected .mdc-switch.mdc-switch--unselected .mdc-switch__icon,#cookiescript_injected_fsd .mdc-switch.mdc-switch--unselected .mdc-switch__icon{width:18px;height:18px}#cookiescript_injected .mdc-switch.mdc-switch--selected:enabled:hover:not(:focus) .mdc-switch__ripple::after,#cookiescript_injected .mdc-switch.mdc-switch--selected:enabled:hover:not(:focus) .mdc-switch__ripple::before{background-color:}#cookiescript_injected .mdc-switch.mdc-switch--selected:enabled:focus .mdc-switch__ripple::after,#cookiescript_injected .mdc-switch.mdc-switch--selected:enabled:focus .mdc-switch__ripple::before{background-color:}#cookiescript_injected .mdc-switch.mdc-switch--selected:enabled:active .mdc-switch__ripple::after,#cookiescript_injected .mdc-switch.mdc-switch--selected:enabled:active .mdc-switch__ripple::before{background-color:}#cookiescript_injected .mdc-switch.mdc-switch--unselected:enabled:hover:not(:focus) .mdc-switch__ripple::after,#cookiescript_injected .mdc-switch.mdc-switch--unselected:enabled:hover:not(:focus) .mdc-switch__ripple::before,#cookiescript_injected_fsd .mdc-switch.mdc-switch--unselected:enabled:hover:not(:focus) .mdc-switch__ripple::after,#cookiescript_injected_fsd .mdc-switch.mdc-switch--unselected:enabled:hover:not(:focus) .mdc-switch__ripple::before{background-color:#424242}#cookiescript_injected .mdc-switch.mdc-switch--unselected:enabled:focus .mdc-switch__ripple::after,#cookiescript_injected .mdc-switch.mdc-switch--unselected:enabled:focus .mdc-switch__ripple::before,#cookiescript_injected_fsd .mdc-switch.mdc-switch--unselected:enabled:focus .mdc-switch__ripple::after,#cookiescript_injected_fsd .mdc-switch.mdc-switch--unselected:enabled:focus .mdc-switch__ripple::before{background-color:#424242}#cookiescript_injected .mdc-switch.mdc-switch--unselected:enabled:active .mdc-switch__ripple::after,#cookiescript_injected .mdc-switch.mdc-switch--unselected:enabled:active .mdc-switch__ripple::before,#cookiescript_injected_fsd .mdc-switch.mdc-switch--unselected:enabled:active .mdc-switch__ripple::after,#cookiescript_injected_fsd .mdc-switch.mdc-switch--unselected:enabled:active .mdc-switch__ripple::before{background-color:#424242}#cookiescript_injected .mdc-switch.mdc-switch--selected:enabled:hover:not(:focus).mdc-ripple-surface--hover .mdc-switch__ripple::before,#cookiescript_injected .mdc-switch.mdc-switch--selected:enabled:hover:not(:focus):hover .mdc-switch__ripple::before,#cookiescript_injected_fsd .mdc-switch.mdc-switch--selected:enabled:hover:not(:focus).mdc-ripple-surface--hover .mdc-switch__ripple::before,#cookiescript_injected_fsd .mdc-switch.mdc-switch--selected:enabled:hover:not(:focus):hover .mdc-switch__ripple::before{opacity:.04}#cookiescript_injected .mdc-switch.mdc-switch--selected:enabled:focus.mdc-ripple-upgraded--background-focused .mdc-switch__ripple::before,#cookiescript_injected .mdc-switch.mdc-switch--selected:enabled:focus:not(.mdc-ripple-upgraded):focus .mdc-switch__ripple::before,#cookiescript_injected_fsd .mdc-switch.mdc-switch--selected:enabled:focus.mdc-ripple-upgraded--background-focused .mdc-switch__ripple::before,#cookiescript_injected_fsd .mdc-switch.mdc-switch--selected:enabled:focus:not(.mdc-ripple-upgraded):focus .mdc-switch__ripple::before{transition-duration:75ms;opacity:.12}#cookiescript_injected .mdc-switch.mdc-switch--selected:enabled:active:not(.mdc-ripple-upgraded) .mdc-switch__ripple::after,#cookiescript_injected_fsd .mdc-switch.mdc-switch--selected:enabled:active:not(.mdc-ripple-upgraded) .mdc-switch__ripple::after{transition:opacity 150ms linear}#cookiescript_injected .mdc-switch.mdc-switch--selected:enabled:active:not(.mdc-ripple-upgraded):active .mdc-switch__ripple::after,#cookiescript_injected_fsd .mdc-switch.mdc-switch--selected:enabled:active:not(.mdc-ripple-upgraded):active .mdc-switch__ripple::after{transition-duration:75ms;opacity:.1}#cookiescript_injected .mdc-switch.mdc-switch--unselected:enabled:hover:not(:focus).mdc-ripple-surface--hover .mdc-switch__ripple::before,#cookiescript_injected .mdc-switch.mdc-switch--unselected:enabled:hover:not(:focus):hover .mdc-switch__ripple::before,#cookiescript_injected_fsd .mdc-switch.mdc-switch--unselected:enabled:hover:not(:focus).mdc-ripple-surface--hover .mdc-switch__ripple::before,#cookiescript_injected_fsd .mdc-switch.mdc-switch--unselected:enabled:hover:not(:focus):hover .mdc-switch__ripple::before{opacity:.04}#cookiescript_injected .mdc-switch.mdc-switch--unselected:enabled:focus.mdc-ripple-upgraded--background-focused .mdc-switch__ripple::before,#cookiescript_injected .mdc-switch.mdc-switch--unselected:enabled:focus:not(.mdc-ripple-upgraded):focus .mdc-switch__ripple::before,#cookiescript_injected_fsd .mdc-switch.mdc-switch--unselected:enabled:focus.mdc-ripple-upgraded--background-focused .mdc-switch__ripple::before,#cookiescript_injected_fsd .mdc-switch.mdc-switch--unselected:enabled:focus:not(.mdc-ripple-upgraded):focus .mdc-switch__ripple::before{transition-duration:75ms;opacity:.12}#cookiescript_injected .mdc-switch.mdc-switch--unselected:enabled:active:not(.mdc-ripple-upgraded) .mdc-switch__ripple::after,#cookiescript_injected_fsd .mdc-switch.mdc-switch--unselected:enabled:active:not(.mdc-ripple-upgraded) .mdc-switch__ripple::after{transition:opacity 150ms linear}#cookiescript_injected .mdc-switch.mdc-switch--unselected:enabled:active:not(.mdc-ripple-upgraded):active .mdc-switch__ripple::after,#cookiescript_injected_fsd .mdc-switch.mdc-switch--unselected:enabled:active:not(.mdc-ripple-upgraded):active .mdc-switch__ripple::after{transition-duration:75ms;opacity:.1}#cookiescript_injected .mdc-switch .mdc-switch__ripple,#cookiescript_injected_fsd .mdc-switch .mdc-switch__ripple{height:48px;width:48px}#cookiescript_injected .mdc-switch .mdc-switch__track,#cookiescript_injected_fsd .mdc-switch .mdc-switch__track{height:14px}#cookiescript_injected .mdc-switch:disabled .mdc-switch__track,#cookiescript_injected_fsd .mdc-switch:disabled .mdc-switch__track{opacity:.12}#cookiescript_injected .mdc-switch:enabled .mdc-switch__track::after{background:;opacity:0.3}#cookiescript_injected .mdc-switch:enabled:hover:not(:focus):not(:active) .mdc-switch__track::after{background:;opacity:0.3}#cookiescript_injected .mdc-switch:enabled:focus:not(:active) .mdc-switch__track::after{background:;opacity:0.3}#cookiescript_injected .mdc-switch:enabled:active .mdc-switch__track::after{background:;opacity:0.3}#cookiescript_injected .mdc-switch:disabled .mdc-switch__track::after,#cookiescript_injected_fsd .mdc-switch:disabled .mdc-switch__track::after{background:#424242}#cookiescript_injected .mdc-switch:enabled .mdc-switch__track::before,#cookiescript_injected_fsd .mdc-switch:enabled .mdc-switch__track::before{background:#e0e0e0}#cookiescript_injected .mdc-switch:enabled:hover:not(:focus):not(:active) .mdc-switch__track::before,#cookiescript_injected_fsd .mdc-switch:enabled:hover:not(:focus):not(:active) .mdc-switch__track::before{background:#e0e0e0}#cookiescript_injected .mdc-switch:enabled:focus:not(:active) .mdc-switch__track::before,#cookiescript_injected_fsd .mdc-switch:enabled:focus:not(:active) .mdc-switch__track::before{background:#e0e0e0}#cookiescript_injected .mdc-switch:enabled:active .mdc-switch__track::before,#cookiescript_injected_fsd .mdc-switch:enabled:active .mdc-switch__track::before{background:#e0e0e0}#cookiescript_injected .mdc-switch:disabled .mdc-switch__track::before,#cookiescript_injected_fsd .mdc-switch:disabled .mdc-switch__track::before{background:#424242}#cookiescript_injected .mdc-switch .mdc-switch__track,#cookiescript_injected_fsd .mdc-switch .mdc-switch__track{border-radius:7px}@media screen and (forced-colors:active),(-ms-high-contrast:active){#cookiescript_injected .mdc-switch:disabled .mdc-switch__handle::after,#cookiescript_injected_fsd .mdc-switch:disabled .mdc-switch__handle::after{opacity:1}#cookiescript_injected .mdc-switch.mdc-switch--selected:disabled .mdc-switch__icons,#cookiescript_injected_fsd .mdc-switch.mdc-switch--selected:disabled .mdc-switch__icons{opacity:1}#cookiescript_injected .mdc-switch.mdc-switch--unselected:disabled .mdc-switch__icons,#cookiescript_injected_fsd .mdc-switch.mdc-switch--unselected:disabled .mdc-switch__icons{opacity:1}#cookiescript_injected .mdc-switch:disabled .mdc-switch__track,#cookiescript_injected_fsd .mdc-switch:disabled .mdc-switch__track{opacity:1}}
+/*End Toggle*/
+
+#cookiescript_injected {
+bottom: 20px;
+left: 20px;
+    position: fixed;
+    padding: 15px 20px 15px 20px;
+    width: 300px;
+    text-align: left;
+    max-height: 85%;
+    overflow-y: auto;
+    max-width: calc(100% - 40px);
+}
+
+.cookiescript-extra-links{
+    margin-bottom: 10px;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cookiescript-extra-links a {
+    display: block;
+    margin: 0 auto 5px auto;
+}
+
+#cookiescript_copyright {
+    line-height: 1;
+    text-align: center;
+}
+#cookiescript_buttons {
+    justify-content: space-between;
+    margin: 0 -5px 0 -5px;
+    flex-wrap: wrap;
+}
+#cookiescript_manage_wrap {
+    margin: 0 0 5px 0;
+}
+#cookiescript_header {
+    padding: 10px 0 10px;
+    text-align: left;
+    margin: 0;
+    margin-right: 13px;
+}
+#cookiescript_checkboxs {
+    margin: 0 0 18px -11px;
+}
+.cookiescript_checkbox {
+    margin: 0 0 -10px 0;
+}
+#cookiescript_accept,
+#cookiescript_save,
+#cookiescript_reject {
+    flex-grow: 1;
+    padding: 0 7px;
+    margin: 0 5px 13px 5px;
+}
+#cookiescript_description {
+    margin: 0 0 10px;
+}
+
+.cookiescript_checkbox_label{
+    padding: 0;
+    margin: 0 10px 0 0;
+}
+
+#cookiescript_injected{
+    transition: width 200ms 600ms;
+}
+
+#cookiescript_injected.hascookiereport{
+    width:600px;
+    transition: width 200ms 0ms;
+}
+#cookiescript_cookietablewrap {
+    transition: height 300ms 200ms, min-height 300ms 200ms, max-height 300ms 200ms, opacity 200ms 300ms;
+}
+#cookiescript_cookietablewrap.cookiescript_hidden {
+    transition: height 300ms 200ms, min-height 300ms 200ms, max-height 300ms 200ms, opacity 200ms 0ms;
+}
+
+#cookiescript_accept, #cookiescript_reject, #cookiescript_save {
+	border-radius: 20px;
+}
+
+#cookiescript_injected {
+	border-radius: 20px;
+}
+
+
+@media only screen and (max-width: 440px) {
+    #cookiescript_injected{
+    bottom: 0;
+    left: 0;
+        width: 100%;
+        padding: 15px;
+        border-radius:0;
+		max-width: 100%;
+    }
+    #cookiescript_description,
+    #cookiescript_buttons,
+    #cookiescript_manage_wrap
+    {
+        margin-bottom: 8px;
+    }
+    #cookiescript_checkboxs
+    {
+        margin-bottom: 15px;
+    }
+    #cookiescript_header{
+        padding-top:5px;
+    }
+    #cookiescript_checkboxs {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #cookiescript_injected {
+		max-height: 100%;
+	}
+    }
+
+
+    </style>
+  <div id="cookiescript_injected_wrapper" data-cs-id="cookiescript_injected" style="display: none;">
+	<div id="cookiescript_injected" tabindex="0" role="dialog" aria-label="Cookie consent dialog" data-nosnippet="" class="" style="">
+	<div class="cookiescript_pre_header ">
+		  <div class="cookiescript_header_actions">
+				  <div id="cookiescript_close" tabindex="0" role="button" aria-label="Close">×</div>
+	  </div>
+    </div>
+      <div id="cookiescript_header" data-cs-i18n-text="">
+    This website uses cookies  </div>
+  <div id="cookiescript_description">
+	    <span data-cs-desc-box="true" data-cs-i18n-text="" data-cs-i18n-read="We use cookies and similar technologies to improve site functionality, personalize your experience, and analyze traffic. With your consent, we and our partners may also use them for tailored ads and to measure campaign effectiveness. You can manage your preferences anytime.">
+      We use cookies and similar technologies to improve site functionality, personalize your experience, and analyze traffic. With your consent, we and our partners may also use them for tailored ads and to measure campaign effectiveness. You can manage your preferences anytime.    </span>
+
+    
+      
+      <a id="cookiescript_readmore" data-cs-i18n-text="{&quot;en&quot;:&quot;Privacy Policy&quot;}" data-cs-i18n-url="{&quot;en&quot;:&quot;https:\/\/help.truthsocial.com\/legal\/privacy-policy&quot;}" target="_blank" aria-label="Privacy Policy, opens a new window" href="https://help.truthsocial.com/legal/privacy-policy">
+        Privacy Policy      </a>
+
+      </div>
+  <div id="cookiescript_checkboxs">
+          
+            <div class="cookiescript_checkbox">
+        <div class="mdc-checkbox">
+          <input tabindex="0" id="cookiescript_category_strict" data-cookiescript="checkbox-input" type="checkbox" class="mdc-checkbox__native-control cookiescript_checkbox_input" value="strict" disabled="" checked="">
+          <div class="mdc-checkbox__background">
+            <svg role="none" class="mdc-checkbox__checkmark" viewBox="0 0 40 40">
+              <path class="mdc-checkbox__checkmark-path" fill="none" d="M9.47,20.975 15.84,27.345 30.53,12.655"></path>
+            </svg>
+          </div>
+        </div>
+        <label class="cookiescript_checkbox_label" for="cookiescript_category_strict">
+          <span class="cookiescript_checkbox_text" data-cs-i18n-text="">
+            Strictly necessary          </span>
+        </label>
+      </div>
+
+          
+            <div class="cookiescript_checkbox">
+        <div class="mdc-checkbox">
+          <input tabindex="0" id="cookiescript_category_performance" data-cookiescript="checkbox-input" type="checkbox" class="mdc-checkbox__native-control cookiescript_checkbox_input" value="performance">
+          <div class="mdc-checkbox__background">
+            <svg role="none" class="mdc-checkbox__checkmark" viewBox="0 0 40 40">
+              <path class="mdc-checkbox__checkmark-path" fill="none" d="M9.47,20.975 15.84,27.345 30.53,12.655"></path>
+            </svg>
+          </div>
+        </div>
+        <label class="cookiescript_checkbox_label" for="cookiescript_category_performance">
+          <span class="cookiescript_checkbox_text" data-cs-i18n-text="">
+            Performance          </span>
+        </label>
+      </div>
+
+          
+            <div class="cookiescript_checkbox">
+        <div class="mdc-checkbox">
+          <input tabindex="0" id="cookiescript_category_targeting" data-cookiescript="checkbox-input" type="checkbox" class="mdc-checkbox__native-control cookiescript_checkbox_input" value="targeting">
+          <div class="mdc-checkbox__background">
+            <svg role="none" class="mdc-checkbox__checkmark" viewBox="0 0 40 40">
+              <path class="mdc-checkbox__checkmark-path" fill="none" d="M9.47,20.975 15.84,27.345 30.53,12.655"></path>
+            </svg>
+          </div>
+        </div>
+        <label class="cookiescript_checkbox_label" for="cookiescript_category_targeting">
+          <span class="cookiescript_checkbox_text" data-cs-i18n-text="">
+            Targeting          </span>
+        </label>
+      </div>
+
+          
+            <div class="cookiescript_checkbox">
+        <div class="mdc-checkbox">
+          <input tabindex="0" id="cookiescript_category_functionality" data-cookiescript="checkbox-input" type="checkbox" class="mdc-checkbox__native-control cookiescript_checkbox_input" value="functionality">
+          <div class="mdc-checkbox__background">
+            <svg role="none" class="mdc-checkbox__checkmark" viewBox="0 0 40 40">
+              <path class="mdc-checkbox__checkmark-path" fill="none" d="M9.47,20.975 15.84,27.345 30.53,12.655"></path>
+            </svg>
+          </div>
+        </div>
+        <label class="cookiescript_checkbox_label" for="cookiescript_category_functionality">
+          <span class="cookiescript_checkbox_text" data-cs-i18n-text="">
+            Functionality          </span>
+        </label>
+      </div>
+
+            </div>
+  <div id="cookiescript_buttons">
+          <div id="cookiescript_save" tabindex="0" role="button" data-cs-i18n-text="">
+        Save &amp; Close      </div>
+              <div id="cookiescript_accept" tabindex="0" role="button" data-cs-i18n-text="">
+        Accept all      </div>
+              <div id="cookiescript_reject" tabindex="0" role="button" data-cs-i18n-text="">
+        Decline all      </div>
+      </div>
+
+  <div id="cookiescript_manage_wrap" tabindex="0" role="button">
+    <div id="cookiescript_manage">
+      <svg role="none" id="cookiescript_manageicon" viewBox="0 0 9.62 9.57">
+        <g id="cs-manage-btn">
+          <g id="cs-manage-btn-1-2">
+            <path class="cookiescript_gear" d="M9.46,6.06l-1.1-.78c0-.16.06-.31.06-.47a1.27,1.27,0,0,0-.06-.47L9.57,3.4l-1.15-2L7,1.93a2.74,2.74,0,0,0-.83-.47L6,0H3.61L3.35,1.46a7.14,7.14,0,0,0-.79.47L1.15,1.36,0,3.4l1.15.94c0,.16,0,.31,0,.47a1.51,1.51,0,0,0,0,.47l-1,.78A.75.75,0,0,0,0,6.17l1.15,2,1.41-.58a2.49,2.49,0,0,0,.84.47l.21,1.47H6a.53.53,0,0,1,0-.21L6.22,8.1a4,4,0,0,0,.84-.47l1.41.58,1.15-2A.75.75,0,0,0,9.46,6.06Zm-4.65.19A1.47,1.47,0,1,1,6.28,4.78,1.47,1.47,0,0,1,4.81,6.25Z"></path>
+          </g>
+        </g>
+      </svg>
+      <span data-cs-show-title="cookie-script" data-cs-i18n-text="" style="">
+        Show details      </span>
+      <span style="display: none;" data-cs-hide-title="cookie-script" data-cs-i18n-text="">
+        Hide details      </span>
+    </div>
+  </div>
+		<div class="cookiescript_hidden" id="cookiescript_cookietablewrap" inert="">
+					</div>
+		
+  <div class="cookiescript-extra-links">
+          <a data-cs-i18n-text="{&quot;en&quot;:&quot;Cookies Policy&quot;}" data-cs-i18n-url="{&quot;en&quot;:&quot;https:\/\/help.truthsocial.com\/legal\/cookie-policy&quot;}" target="_blank" aria-label="Cookies Policy, opens a new window" href="https://help.truthsocial.com/legal/cookie-policy">
+        Cookies Policy      </a>
+                 <a data-cs-i18n-text="{&quot;en&quot;:&quot;Terms of Service&quot;}" data-cs-i18n-url="{&quot;en&quot;:&quot;https:\/\/help.truthsocial.com\/legal\/terms-of-service&quot;}" target="_blank" aria-label="Terms of Service, opens a new window" href="https://help.truthsocial.com/legal/terms-of-service">
+        Terms of Service      </a>
+            </div>
+
+
+	</div>
+</div>
+</body></html>

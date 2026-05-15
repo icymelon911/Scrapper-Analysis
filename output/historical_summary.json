@@ -1,0 +1,193 @@
+{
+  "generated_at": "2026-05-15T16:07:02+08:00",
+  "theme_trends": {
+    "crypto": {
+      "count_24h": 0,
+      "count_7d": 0,
+      "trend": "steady"
+    },
+    "oil": {
+      "count_24h": 0,
+      "count_7d": 0,
+      "trend": "steady"
+    },
+    "china": {
+      "count_24h": 2,
+      "count_7d": 2,
+      "trend": "increasing"
+    },
+    "tariffs": {
+      "count_24h": 0,
+      "count_7d": 0,
+      "trend": "steady"
+    },
+    "energy": {
+      "count_24h": 0,
+      "count_7d": 0,
+      "trend": "steady"
+    },
+    "ai": {
+      "count_24h": 0,
+      "count_7d": 0,
+      "trend": "steady"
+    },
+    "defense": {
+      "count_24h": 2,
+      "count_7d": 2,
+      "trend": "increasing"
+    }
+  },
+  "narratives": [
+    "Increasing anti-China trade rhetoric",
+    "Geopolitical tension narrative",
+    "Anti-China economic pressure narrative",
+    "Election and leadership narrative"
+  ],
+  "account_behavior": {
+    "TuckerCarlson": {
+      "post_count": 2,
+      "posting_frequency_per_day": 0.29,
+      "most_common_themes": [
+        "china",
+        "unknown"
+      ],
+      "average_market_impact": 50.0
+    },
+    "realDonaldTrump": {
+      "post_count": 2,
+      "posting_frequency_per_day": 0.29,
+      "most_common_themes": [
+        "china",
+        "unknown"
+      ],
+      "average_market_impact": 47.5
+    }
+  },
+  "daily_summary": {
+    "top_themes": [
+      "china",
+      "defense"
+    ],
+    "top_entities": [
+      "China",
+      "Iran",
+      "United States"
+    ],
+    "high_impact_posts": [
+      {
+        "post_id": "TuckerCarlson_status-116518458202247153",
+        "account": "TuckerCarlson",
+        "market_impact": {
+          "score": 100,
+          "level": "extreme",
+          "drivers": [
+            "China",
+            "Iran",
+            "china",
+            "defense",
+            "war"
+          ]
+        },
+        "scraped_at": "2026-05-15T16:06:47+08:00"
+      },
+      {
+        "post_id": "realDonaldTrump_status-116575104401917058",
+        "account": "realDonaldTrump",
+        "market_impact": {
+          "score": 95,
+          "level": "extreme",
+          "drivers": [
+            "China",
+            "Iran",
+            "United States",
+            "china",
+            "defense"
+          ]
+        },
+        "scraped_at": "2026-05-15T14:59:49+08:00"
+      },
+      {
+        "post_id": "TuckerCarlson_status-116558209569783008",
+        "account": "TuckerCarlson",
+        "market_impact": {
+          "score": 0,
+          "level": "low",
+          "drivers": []
+        },
+        "scraped_at": "2026-05-15T15:00:12+08:00"
+      },
+      {
+        "post_id": "test_001",
+        "account": "realDonaldTrump",
+        "market_impact": {},
+        "scraped_at": "2026-05-14T22:00:00+08:00"
+      }
+    ],
+    "narrative_changes": []
+  },
+  "weekly_summary": {
+    "top_themes": [
+      "china",
+      "defense"
+    ],
+    "top_entities": [
+      "China",
+      "Iran",
+      "United States"
+    ],
+    "top_accounts": [
+      "TuckerCarlson",
+      "realDonaldTrump"
+    ],
+    "high_impact_posts": [
+      {
+        "post_id": "TuckerCarlson_status-116518458202247153",
+        "account": "TuckerCarlson",
+        "market_impact": {
+          "score": 100,
+          "level": "extreme",
+          "drivers": [
+            "China",
+            "Iran",
+            "china",
+            "defense",
+            "war"
+          ]
+        },
+        "scraped_at": "2026-05-15T16:06:47+08:00"
+      },
+      {
+        "post_id": "realDonaldTrump_status-116575104401917058",
+        "account": "realDonaldTrump",
+        "market_impact": {
+          "score": 95,
+          "level": "extreme",
+          "drivers": [
+            "China",
+            "Iran",
+            "United States",
+            "china",
+            "defense"
+          ]
+        },
+        "scraped_at": "2026-05-15T14:59:49+08:00"
+      },
+      {
+        "post_id": "TuckerCarlson_status-116558209569783008",
+        "account": "TuckerCarlson",
+        "market_impact": {
+          "score": 0,
+          "level": "low",
+          "drivers": []
+        },
+        "scraped_at": "2026-05-15T15:00:12+08:00"
+      },
+      {
+        "post_id": "test_001",
+        "account": "realDonaldTrump",
+        "market_impact": {},
+        "scraped_at": "2026-05-14T22:00:00+08:00"
+      }
+    ]
+  }
+}

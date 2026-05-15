@@ -1,0 +1,515 @@
+2026-05-13 17:15:52,333 INFO Loaded 2 accounts
+2026-05-13 17:15:52,363 INFO Scheduler started with interval 5 minutes
+2026-05-13 17:15:52,364 INFO Scheduler scraping run started
+2026-05-13 17:15:53,639 INFO Scraping account realDonaldTrump
+2026-05-13 17:16:11,917 INFO Loaded page for realDonaldTrump
+2026-05-13 17:16:11,963 INFO Selector div[data-testid='status'] found 2 elements for realDonaldTrump
+2026-05-13 17:16:11,997 INFO Scraping account TuckerCarlson
+2026-05-13 17:16:29,622 INFO Loaded page for TuckerCarlson
+2026-05-13 17:16:29,644 INFO Selector div[data-testid='status'] found 1 elements for TuckerCarlson
+2026-05-13 17:20:52,378 INFO Scheduler scraping run started
+2026-05-13 17:20:53,426 INFO Scraping account realDonaldTrump
+2026-05-13 17:21:13,769 INFO Loaded page for realDonaldTrump
+2026-05-13 17:21:13,800 INFO Selector div[data-testid='status'] found 1 elements for realDonaldTrump
+2026-05-13 17:21:13,820 INFO Skipping duplicate post_id realDonaldTrump_status-116565480086717671
+2026-05-13 17:21:13,820 INFO No new posts
+2026-05-13 17:21:13,821 INFO Scraping account TuckerCarlson
+2026-05-13 17:21:31,408 INFO Loaded page for TuckerCarlson
+2026-05-13 17:21:31,430 INFO Selector div[data-testid='status'] found 1 elements for TuckerCarlson
+2026-05-13 17:21:31,442 INFO Skipping duplicate post_id TuckerCarlson_status-116558209569783008
+2026-05-13 17:21:31,442 INFO No new posts
+2026-05-13 17:25:52,370 INFO Scheduler scraping run started
+2026-05-13 17:25:53,893 INFO Scraping account realDonaldTrump
+2026-05-13 17:26:12,652 INFO Loaded page for realDonaldTrump
+2026-05-13 17:26:12,691 INFO Selector div[data-testid='status'] found 1 elements for realDonaldTrump
+2026-05-13 17:26:12,710 INFO Skipping duplicate post_id realDonaldTrump_status-116565480086717671
+2026-05-13 17:26:12,711 INFO No new posts
+2026-05-13 17:26:12,711 INFO Scraping account TuckerCarlson
+2026-05-13 17:26:29,145 INFO Loaded page for TuckerCarlson
+2026-05-13 17:26:29,166 INFO Selector div[data-testid='status'] found 1 elements for TuckerCarlson
+2026-05-13 17:26:29,181 INFO Skipping duplicate post_id TuckerCarlson_status-116558209569783008
+2026-05-13 17:26:29,181 INFO No new posts
+2026-05-13 17:30:52,363 INFO Scheduler scraping run started
+2026-05-13 17:30:53,792 INFO Scraping account realDonaldTrump
+2026-05-13 17:31:16,587 INFO Loaded page for realDonaldTrump
+2026-05-13 17:31:16,623 INFO Selector div[data-testid='status'] found 1 elements for realDonaldTrump
+2026-05-13 17:31:16,642 INFO Skipping duplicate post_id realDonaldTrump_status-116565480086717671
+2026-05-13 17:31:16,643 INFO No new posts
+2026-05-13 17:31:16,643 INFO Scraping account TuckerCarlson
+2026-05-13 17:31:33,523 INFO Loaded page for TuckerCarlson
+2026-05-13 17:31:33,545 INFO Selector div[data-testid='status'] found 1 elements for TuckerCarlson
+2026-05-13 17:31:33,559 INFO Skipping duplicate post_id TuckerCarlson_status-116558209569783008
+2026-05-13 17:31:33,559 INFO No new posts
+2026-05-13 17:35:52,364 INFO Scheduler scraping run started
+2026-05-13 17:35:53,269 INFO Scraping account realDonaldTrump
+2026-05-13 17:36:15,589 INFO Loaded page for realDonaldTrump
+2026-05-13 17:36:15,622 INFO Selector div[data-testid='status'] found 1 elements for realDonaldTrump
+2026-05-13 17:36:15,641 INFO Skipping duplicate post_id realDonaldTrump_status-116565480086717671
+2026-05-13 17:36:15,641 INFO No new posts
+2026-05-13 17:36:15,641 INFO Scraping account TuckerCarlson
+2026-05-13 17:36:36,211 INFO Loaded page for TuckerCarlson
+2026-05-13 17:36:36,230 INFO Selector div[data-testid='status'] found 1 elements for TuckerCarlson
+2026-05-13 17:36:36,243 INFO Skipping duplicate post_id TuckerCarlson_status-116558209569783008
+2026-05-13 17:36:36,244 INFO No new posts
+2026-05-13 17:40:52,365 INFO Scheduler scraping run started
+2026-05-13 17:40:53,229 INFO Scraping account realDonaldTrump
+2026-05-13 17:41:14,582 INFO Loaded page for realDonaldTrump
+2026-05-13 17:41:14,611 INFO Selector div[data-testid='status'] found 1 elements for realDonaldTrump
+2026-05-13 17:41:14,636 INFO Skipping duplicate post_id realDonaldTrump_status-116565480086717671
+2026-05-13 17:41:14,636 INFO No new posts
+2026-05-13 17:41:14,637 INFO Scraping account TuckerCarlson
+2026-05-13 17:41:32,013 INFO Loaded page for TuckerCarlson
+2026-05-13 17:41:32,035 INFO Selector div[data-testid='status'] found 1 elements for TuckerCarlson
+2026-05-13 17:41:32,048 INFO Skipping duplicate post_id TuckerCarlson_status-116558209569783008
+2026-05-13 17:41:32,048 INFO No new posts
+2026-05-13 17:45:52,372 INFO Scheduler scraping run started
+2026-05-13 17:45:53,179 INFO Scraping account realDonaldTrump
+2026-05-13 17:46:11,017 INFO Loaded page for realDonaldTrump
+2026-05-13 17:46:11,051 INFO Selector div[data-testid='status'] found 1 elements for realDonaldTrump
+2026-05-13 17:46:11,068 INFO Skipping duplicate post_id realDonaldTrump_status-116565480086717671
+2026-05-13 17:46:11,068 INFO No new posts
+2026-05-13 17:46:11,068 INFO Scraping account TuckerCarlson
+2026-05-13 17:46:28,964 INFO Loaded page for TuckerCarlson
+2026-05-13 17:46:28,985 INFO Selector div[data-testid='status'] found 1 elements for TuckerCarlson
+2026-05-13 17:46:28,998 INFO Skipping duplicate post_id TuckerCarlson_status-116558209569783008
+2026-05-13 17:46:28,998 INFO No new posts
+2026-05-13 17:50:52,363 INFO Scheduler scraping run started
+2026-05-13 17:50:53,265 INFO Scraping account realDonaldTrump
+2026-05-13 17:51:15,506 INFO Loaded page for realDonaldTrump
+2026-05-13 17:51:15,533 INFO Selector div[data-testid='status'] found 1 elements for realDonaldTrump
+2026-05-13 17:51:15,551 INFO Skipping duplicate post_id realDonaldTrump_status-116565480086717671
+2026-05-13 17:51:15,551 INFO No new posts
+2026-05-13 17:51:15,551 INFO Scraping account TuckerCarlson
+2026-05-13 17:51:32,954 INFO Loaded page for TuckerCarlson
+2026-05-13 17:51:32,975 INFO Selector div[data-testid='status'] found 1 elements for TuckerCarlson
+2026-05-13 17:51:32,990 INFO Skipping duplicate post_id TuckerCarlson_status-116558209569783008
+2026-05-13 17:51:32,990 INFO No new posts
+2026-05-13 17:55:52,369 INFO Scheduler scraping run started
+2026-05-13 17:55:53,171 INFO Scraping account realDonaldTrump
+2026-05-13 17:56:15,627 INFO Loaded page for realDonaldTrump
+2026-05-13 17:56:15,661 INFO Selector div[data-testid='status'] found 1 elements for realDonaldTrump
+2026-05-13 17:56:15,683 INFO Skipping duplicate post_id realDonaldTrump_status-116565480086717671
+2026-05-13 17:56:15,683 INFO No new posts
+2026-05-13 17:56:15,683 INFO Scraping account TuckerCarlson
+2026-05-13 17:56:33,306 INFO Loaded page for TuckerCarlson
+2026-05-13 17:56:33,327 INFO Selector div[data-testid='status'] found 1 elements for TuckerCarlson
+2026-05-13 17:56:33,339 INFO Skipping duplicate post_id TuckerCarlson_status-116558209569783008
+2026-05-13 17:56:33,340 INFO No new posts
+2026-05-13 18:00:18,243 INFO Loaded 2 accounts
+2026-05-13 18:00:18,260 INFO Scheduler started with interval 5 minutes
+2026-05-13 18:00:18,261 INFO Scheduler scraping run started
+2026-05-13 18:00:19,068 INFO Scraping account realDonaldTrump
+2026-05-13 18:00:40,073 INFO Loaded page for realDonaldTrump
+2026-05-13 18:00:40,117 INFO Selector div[data-testid='status'] found 1 elements for realDonaldTrump
+2026-05-13 18:00:40,150 INFO Scraping account TuckerCarlson
+2026-05-13 18:00:57,843 INFO Loaded page for TuckerCarlson
+2026-05-13 18:00:57,860 INFO Selector div[data-testid='status'] found 1 elements for TuckerCarlson
+2026-05-13 18:05:18,263 INFO Scheduler scraping run started
+2026-05-13 18:05:28,833 INFO Scraping account realDonaldTrump
+2026-05-13 18:05:48,379 INFO Loaded page for realDonaldTrump
+2026-05-13 18:05:48,415 INFO Selector div[data-testid='status'] found 1 elements for realDonaldTrump
+2026-05-13 18:05:48,439 INFO Skipping duplicate post_id realDonaldTrump_status-116565480086717671
+2026-05-13 18:05:48,439 INFO No new posts
+2026-05-13 18:05:48,439 INFO Scraping account TuckerCarlson
+2026-05-13 18:06:05,672 INFO Loaded page for TuckerCarlson
+2026-05-13 18:06:05,690 INFO Selector div[data-testid='status'] found 1 elements for TuckerCarlson
+2026-05-13 18:06:05,702 INFO Skipping duplicate post_id TuckerCarlson_status-116558209569783008
+2026-05-13 18:06:05,702 INFO No new posts
+2026-05-13 18:10:18,264 INFO Scheduler scraping run started
+2026-05-13 18:10:19,110 INFO Scraping account realDonaldTrump
+2026-05-13 18:10:41,889 INFO Loaded page for realDonaldTrump
+2026-05-13 18:10:41,918 INFO Selector div[data-testid='status'] found 1 elements for realDonaldTrump
+2026-05-13 18:10:41,936 INFO Skipping duplicate post_id realDonaldTrump_status-116565480086717671
+2026-05-13 18:10:41,936 INFO No new posts
+2026-05-13 18:10:41,936 INFO Scraping account TuckerCarlson
+2026-05-13 18:10:59,561 INFO Loaded page for TuckerCarlson
+2026-05-13 18:10:59,583 INFO Selector div[data-testid='status'] found 1 elements for TuckerCarlson
+2026-05-13 18:10:59,596 INFO Skipping duplicate post_id TuckerCarlson_status-116558209569783008
+2026-05-13 18:10:59,596 INFO No new posts
+2026-05-13 18:15:18,261 INFO Scheduler scraping run started
+2026-05-13 18:15:19,299 INFO Scraping account realDonaldTrump
+2026-05-13 18:15:41,514 INFO Loaded page for realDonaldTrump
+2026-05-13 18:15:41,543 INFO Selector div[data-testid='status'] found 1 elements for realDonaldTrump
+2026-05-13 18:15:41,560 INFO Skipping duplicate post_id realDonaldTrump_status-116565480086717671
+2026-05-13 18:15:41,560 INFO No new posts
+2026-05-13 18:15:41,561 INFO Scraping account TuckerCarlson
+2026-05-13 18:15:58,870 INFO Loaded page for TuckerCarlson
+2026-05-13 18:15:58,888 INFO Selector div[data-testid='status'] found 1 elements for TuckerCarlson
+2026-05-13 18:15:58,901 INFO Skipping duplicate post_id TuckerCarlson_status-116558209569783008
+2026-05-13 18:15:58,901 INFO No new posts
+2026-05-13 18:20:18,269 INFO Scheduler scraping run started
+2026-05-13 18:20:19,695 INFO Scraping account realDonaldTrump
+2026-05-13 18:20:37,384 INFO Loaded page for realDonaldTrump
+2026-05-13 18:20:37,429 INFO Selector div[data-testid='status'] found 1 elements for realDonaldTrump
+2026-05-13 18:20:37,453 INFO Skipping duplicate post_id realDonaldTrump_status-116565480086717671
+2026-05-13 18:20:37,453 INFO No new posts
+2026-05-13 18:20:37,453 INFO Scraping account TuckerCarlson
+2026-05-13 18:20:54,901 INFO Loaded page for TuckerCarlson
+2026-05-13 18:20:54,919 INFO Selector div[data-testid='status'] found 1 elements for TuckerCarlson
+2026-05-13 18:20:54,930 INFO Skipping duplicate post_id TuckerCarlson_status-116558209569783008
+2026-05-13 18:20:54,930 INFO No new posts
+2026-05-13 18:25:18,265 INFO Scheduler scraping run started
+2026-05-13 18:25:19,978 INFO Scraping account realDonaldTrump
+2026-05-13 18:25:41,732 INFO Loaded page for realDonaldTrump
+2026-05-13 18:25:41,764 INFO Selector div[data-testid='status'] found 1 elements for realDonaldTrump
+2026-05-13 18:25:41,791 INFO Scraping account TuckerCarlson
+2026-05-13 18:25:59,566 INFO Loaded page for TuckerCarlson
+2026-05-13 18:25:59,584 INFO Selector div[data-testid='status'] found 1 elements for TuckerCarlson
+2026-05-14 22:43:33,872 WARNING MongoDB not available, will use JSON fallback
+2026-05-14 22:43:33,873 INFO Loaded 2 accounts
+2026-05-14 22:43:33,914 INFO Scheduler started with interval 5 minutes
+2026-05-14 22:43:33,916 INFO Scheduler scraping run started
+2026-05-14 22:43:51,566 INFO Scraping account realDonaldTrump
+2026-05-14 22:44:16,908 INFO Loaded page for realDonaldTrump
+2026-05-14 22:44:16,947 INFO Selector div[data-testid='status'] found 1 elements for realDonaldTrump
+2026-05-14 22:44:22,069 WARNING Failed to save to MongoDB, falling back to JSON
+2026-05-14 22:44:22,072 INFO Scraping account TuckerCarlson
+2026-05-14 22:44:45,061 INFO Loaded page for TuckerCarlson
+2026-05-14 22:44:45,096 INFO Selector div[data-testid='status'] found 1 elements for TuckerCarlson
+2026-05-14 22:44:45,159 INFO Skipping duplicate post_id TuckerCarlson_status-116558209569783008
+2026-05-14 22:44:45,159 INFO No new posts
+2026-05-14 22:48:33,920 INFO Scheduler scraping run started
+2026-05-14 22:48:34,879 INFO Scraping account realDonaldTrump
+2026-05-14 22:48:53,558 INFO Loaded page for realDonaldTrump
+2026-05-14 22:48:53,603 INFO Selector div[data-testid='status'] found 1 elements for realDonaldTrump
+2026-05-14 22:48:58,679 WARNING Failed to save to MongoDB, falling back to JSON
+2026-05-14 22:48:58,683 INFO Scraping account TuckerCarlson
+2026-05-14 22:49:17,304 INFO Loaded page for TuckerCarlson
+2026-05-14 22:49:17,327 INFO Selector div[data-testid='status'] found 2 elements for TuckerCarlson
+2026-05-14 22:49:17,355 INFO Skipping duplicate post_id TuckerCarlson_status-116558209569783008
+2026-05-14 22:49:22,408 WARNING Failed to save to MongoDB, falling back to JSON
+2026-05-14 22:53:33,928 INFO Scheduler scraping run started
+2026-05-14 22:53:35,171 INFO Scraping account realDonaldTrump
+2026-05-14 22:53:53,419 INFO Loaded page for realDonaldTrump
+2026-05-14 22:53:53,465 INFO Selector div[data-testid='status'] found 2 elements for realDonaldTrump
+2026-05-14 22:53:53,506 INFO Skipping duplicate post_id realDonaldTrump_status-116570567119694784
+2026-05-14 22:53:58,575 WARNING Failed to save to MongoDB, falling back to JSON
+2026-05-14 22:53:58,579 INFO Scraping account TuckerCarlson
+2026-05-14 22:54:15,742 INFO Loaded page for TuckerCarlson
+2026-05-14 22:54:15,772 INFO Selector div[data-testid='status'] found 1 elements for TuckerCarlson
+2026-05-14 22:54:15,789 INFO Skipping duplicate post_id TuckerCarlson_status-116558209569783008
+2026-05-14 22:54:15,789 INFO No new posts
+2026-05-14 23:03:33,913 INFO Scheduler scraping run started
+2026-05-14 23:03:35,078 INFO Scraping account realDonaldTrump
+2026-05-14 23:03:58,005 INFO Loaded page for realDonaldTrump
+2026-05-14 23:03:58,085 INFO Selector div[data-testid='status'] found 1 elements for realDonaldTrump
+2026-05-14 23:03:58,108 INFO Skipping duplicate post_id realDonaldTrump_status-116570567119694784
+2026-05-14 23:03:58,108 INFO No new posts
+2026-05-14 23:03:58,109 INFO Scraping account TuckerCarlson
+2026-05-14 23:04:15,612 INFO Loaded page for TuckerCarlson
+2026-05-14 23:04:15,636 INFO Selector div[data-testid='status'] found 1 elements for TuckerCarlson
+2026-05-14 23:04:15,651 INFO Skipping duplicate post_id TuckerCarlson_status-116558209569783008
+2026-05-14 23:04:15,651 INFO No new posts
+2026-05-14 23:08:33,919 INFO Scheduler scraping run started
+2026-05-14 23:08:35,215 INFO Scraping account realDonaldTrump
+2026-05-14 23:08:55,372 INFO Loaded page for realDonaldTrump
+2026-05-14 23:08:55,421 INFO Selector div[data-testid='status'] found 1 elements for realDonaldTrump
+2026-05-14 23:08:55,446 INFO Skipping duplicate post_id realDonaldTrump_status-116570567119694784
+2026-05-14 23:08:55,447 INFO No new posts
+2026-05-14 23:08:55,448 INFO Scraping account TuckerCarlson
+2026-05-14 23:09:13,870 INFO Loaded page for TuckerCarlson
+2026-05-14 23:09:13,893 INFO Selector div[data-testid='status'] found 1 elements for TuckerCarlson
+2026-05-14 23:09:13,909 INFO Skipping duplicate post_id TuckerCarlson_status-116558209569783008
+2026-05-14 23:09:13,909 INFO No new posts
+2026-05-14 23:13:33,918 INFO Scheduler scraping run started
+2026-05-14 23:13:35,178 INFO Scraping account realDonaldTrump
+2026-05-14 23:13:57,722 INFO Loaded page for realDonaldTrump
+2026-05-14 23:13:57,772 INFO Selector div[data-testid='status'] found 1 elements for realDonaldTrump
+2026-05-14 23:13:57,805 INFO Skipping duplicate post_id realDonaldTrump_status-116570567119694784
+2026-05-14 23:13:57,805 INFO No new posts
+2026-05-14 23:13:57,805 INFO Scraping account TuckerCarlson
+2026-05-14 23:14:16,132 INFO Loaded page for TuckerCarlson
+2026-05-14 23:14:16,169 INFO Selector div[data-testid='status'] found 1 elements for TuckerCarlson
+2026-05-14 23:14:16,197 INFO Skipping duplicate post_id TuckerCarlson_status-116558209569783008
+2026-05-14 23:14:16,198 INFO No new posts
+2026-05-14 23:18:33,963 INFO Scheduler scraping run started
+2026-05-14 23:18:35,418 INFO Scraping account realDonaldTrump
+2026-05-14 23:18:57,708 INFO Loaded page for realDonaldTrump
+2026-05-14 23:18:57,808 INFO Selector div[data-testid='status'] found 1 elements for realDonaldTrump
+2026-05-14 23:18:57,845 INFO Skipping duplicate post_id realDonaldTrump_status-116570567119694784
+2026-05-14 23:18:57,845 INFO No new posts
+2026-05-14 23:18:57,845 INFO Scraping account TuckerCarlson
+2026-05-14 23:19:17,832 INFO Loaded page for TuckerCarlson
+2026-05-14 23:19:17,858 INFO Selector div[data-testid='status'] found 1 elements for TuckerCarlson
+2026-05-14 23:19:17,875 INFO Skipping duplicate post_id TuckerCarlson_status-116558209569783008
+2026-05-14 23:19:17,875 INFO No new posts
+2026-05-14 23:23:33,961 INFO Scheduler scraping run started
+2026-05-14 23:23:35,456 INFO Scraping account realDonaldTrump
+2026-05-14 23:23:57,353 INFO Loaded page for realDonaldTrump
+2026-05-14 23:23:57,404 INFO Selector div[data-testid='status'] found 1 elements for realDonaldTrump
+2026-05-14 23:23:57,437 INFO Skipping duplicate post_id realDonaldTrump_status-116570567119694784
+2026-05-14 23:23:57,438 INFO No new posts
+2026-05-14 23:23:57,438 INFO Scraping account TuckerCarlson
+2026-05-14 23:24:15,904 INFO Loaded page for TuckerCarlson
+2026-05-14 23:24:15,929 INFO Selector div[data-testid='status'] found 1 elements for TuckerCarlson
+2026-05-14 23:24:15,950 INFO Skipping duplicate post_id TuckerCarlson_status-116558209569783008
+2026-05-14 23:24:15,950 INFO No new posts
+2026-05-14 23:28:33,918 INFO Scheduler scraping run started
+2026-05-14 23:28:34,994 INFO Scraping account realDonaldTrump
+2026-05-14 23:28:56,527 INFO Loaded page for realDonaldTrump
+2026-05-14 23:28:56,582 INFO Selector div[data-testid='status'] found 1 elements for realDonaldTrump
+2026-05-14 23:28:56,616 INFO Skipping duplicate post_id realDonaldTrump_status-116570567119694784
+2026-05-14 23:28:56,625 INFO No new posts
+2026-05-14 23:28:56,625 INFO Scraping account TuckerCarlson
+2026-05-14 23:29:15,277 INFO Loaded page for TuckerCarlson
+2026-05-14 23:29:15,305 INFO Selector div[data-testid='status'] found 1 elements for TuckerCarlson
+2026-05-14 23:29:15,331 INFO Skipping duplicate post_id TuckerCarlson_status-116558209569783008
+2026-05-14 23:29:15,332 INFO No new posts
+2026-05-14 23:33:33,922 INFO Scheduler scraping run started
+2026-05-14 23:33:35,109 INFO Scraping account realDonaldTrump
+2026-05-14 23:34:01,152 INFO Loaded page for realDonaldTrump
+2026-05-14 23:34:01,200 INFO Selector div[data-testid='status'] found 1 elements for realDonaldTrump
+2026-05-14 23:34:01,226 INFO Skipping duplicate post_id realDonaldTrump_status-116570567119694784
+2026-05-14 23:34:01,226 INFO No new posts
+2026-05-14 23:34:01,227 INFO Scraping account TuckerCarlson
+2026-05-14 23:34:34,912 INFO Loaded page for TuckerCarlson
+2026-05-14 23:34:34,954 INFO Selector div[data-testid='status'] found 1 elements for TuckerCarlson
+2026-05-14 23:34:34,985 INFO Skipping duplicate post_id TuckerCarlson_status-116558209569783008
+2026-05-14 23:34:34,986 INFO No new posts
+2026-05-14 23:49:32,704 WARNING MongoDB not available, will use JSON fallback
+2026-05-14 23:49:32,704 INFO Loaded 2 accounts
+2026-05-14 23:49:32,765 INFO Scheduler started with interval 5 minutes
+2026-05-14 23:49:32,766 INFO Scheduler scraping run started
+2026-05-14 23:49:34,098 INFO Scraping account realDonaldTrump
+2026-05-14 23:49:53,990 INFO Loaded page for realDonaldTrump
+2026-05-14 23:49:54,042 INFO Selector div[data-testid='status'] found 1 elements for realDonaldTrump
+2026-05-14 23:49:54,114 INFO Skipping duplicate post_id realDonaldTrump_status-116570567119694784
+2026-05-14 23:49:54,114 INFO No new posts
+2026-05-14 23:49:54,116 INFO Scraping account TuckerCarlson
+2026-05-14 23:50:11,748 INFO Loaded page for TuckerCarlson
+2026-05-14 23:50:11,778 INFO Selector div[data-testid='status'] found 1 elements for TuckerCarlson
+2026-05-14 23:50:11,806 INFO Skipping duplicate post_id TuckerCarlson_status-116558209569783008
+2026-05-14 23:50:11,807 INFO No new posts
+2026-05-14 23:50:12,283 ERROR Scheduler job failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Portfolio\Nyala\Donald Trump\truthsocial_mvp\main.py", line 72, in job
+    refresh_historical_summary(logger)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Portfolio\Nyala\Donald Trump\truthsocial_mvp\historical_engine.py", line 377, in refresh_historical_summary
+    "theme_trends": build_theme_trends(),
+                    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Portfolio\Nyala\Donald Trump\truthsocial_mvp\historical_engine.py", line 208, in build_theme_trends
+    window_24h = _count_theme_occurrences(theme, now - timedelta(days=1), now)
+  File "C:\Portfolio\Nyala\Donald Trump\truthsocial_mvp\historical_engine.py", line 184, in _count_theme_occurrences
+    return sum(
+        1
+    ...<3 lines>...
+        and start <= dt < end
+    )
+  File "C:\Portfolio\Nyala\Donald Trump\truthsocial_mvp\historical_engine.py", line 189, in <genexpr>
+    and start <= dt < end
+        ^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-05-15 14:59:30,238 WARNING MongoDB not available, will use JSON fallback
+2026-05-15 14:59:30,239 INFO Loaded 2 accounts
+2026-05-15 14:59:30,240 INFO posts.json is empty, bootstrapping with initial scrape (limit=10)
+2026-05-15 14:59:31,407 INFO Scraping account realDonaldTrump
+2026-05-15 14:59:49,597 INFO Loaded page for realDonaldTrump
+2026-05-15 14:59:49,630 INFO Selector div[data-testid='status'] found 1 elements for realDonaldTrump
+2026-05-15 14:59:54,768 WARNING Failed to save to MongoDB, falling back to JSON
+2026-05-15 14:59:54,770 INFO Scraping account TuckerCarlson
+2026-05-15 15:00:12,576 INFO Loaded page for TuckerCarlson
+2026-05-15 15:00:12,600 INFO Selector div[data-testid='status'] found 1 elements for TuckerCarlson
+2026-05-15 15:00:17,705 WARNING Failed to save to MongoDB, falling back to JSON
+2026-05-15 15:13:08,895 INFO Connected to MongoDB
+2026-05-15 15:13:08,896 INFO Loaded 2 accounts
+2026-05-15 15:13:08,947 INFO Scheduler started with interval 5 minutes
+2026-05-15 15:13:08,947 INFO Scheduler scraping run started
+2026-05-15 15:13:26,233 INFO Scraping account realDonaldTrump
+2026-05-15 15:13:48,213 INFO Loaded page for realDonaldTrump
+2026-05-15 15:13:48,249 INFO Selector div[data-testid='status'] found 1 elements for realDonaldTrump
+2026-05-15 15:13:48,289 INFO Skipping duplicate post_id realDonaldTrump_status-116575104401917058
+2026-05-15 15:13:48,289 INFO No new posts
+2026-05-15 15:13:48,289 INFO Scraping account TuckerCarlson
+2026-05-15 15:14:05,714 INFO Loaded page for TuckerCarlson
+2026-05-15 15:14:05,743 INFO Selector div[data-testid='status'] found 1 elements for TuckerCarlson
+2026-05-15 15:14:05,761 INFO Skipping duplicate post_id TuckerCarlson_status-116558209569783008
+2026-05-15 15:14:05,762 INFO No new posts
+2026-05-15 15:14:07,003 ERROR Scheduler job failed: cannot use 'list' as a dict key (unhashable type: 'list')
+Traceback (most recent call last):
+  File "C:\Portfolio\Nyala\Donald Trump\truthsocial_mvp\main.py", line 71, in job
+    refresh_historical_summary(logger)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Portfolio\Nyala\Donald Trump\truthsocial_mvp\historical_engine.py", line 373, in refresh_historical_summary
+    "account_behavior": account_behavior_analytics(),
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Portfolio\Nyala\Donald Trump\truthsocial_mvp\historical_engine.py", line 242, in account_behavior_analytics
+    account_data["themes"][post.get("themes", []) and post.get("themes", [])[0]] += 1
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: cannot use 'list' as a dict key (unhashable type: 'list')
+2026-05-15 15:18:08,949 INFO Scheduler scraping run started
+2026-05-15 15:18:10,272 INFO Scraping account realDonaldTrump
+2026-05-15 15:18:33,371 INFO Loaded page for realDonaldTrump
+2026-05-15 15:18:33,417 INFO Selector div[data-testid='status'] found 1 elements for realDonaldTrump
+2026-05-15 15:18:33,446 INFO Skipping duplicate post_id realDonaldTrump_status-116575104401917058
+2026-05-15 15:18:33,447 INFO No new posts
+2026-05-15 15:18:33,447 INFO Scraping account TuckerCarlson
+2026-05-15 15:18:51,888 INFO Loaded page for TuckerCarlson
+2026-05-15 15:18:51,918 INFO Selector div[data-testid='status'] found 1 elements for TuckerCarlson
+2026-05-15 15:18:51,934 INFO Skipping duplicate post_id TuckerCarlson_status-116558209569783008
+2026-05-15 15:18:51,935 INFO No new posts
+2026-05-15 15:18:53,142 ERROR Scheduler job failed: cannot use 'list' as a dict key (unhashable type: 'list')
+Traceback (most recent call last):
+  File "C:\Portfolio\Nyala\Donald Trump\truthsocial_mvp\main.py", line 71, in job
+    refresh_historical_summary(logger)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Portfolio\Nyala\Donald Trump\truthsocial_mvp\historical_engine.py", line 373, in refresh_historical_summary
+    "theme_trends": build_theme_trends(),
+                        ^^^^^^^^^^^^^^^^^
+  File "C:\Portfolio\Nyala\Donald Trump\truthsocial_mvp\historical_engine.py", line 242, in account_behavior_analytics
+    primary_theme = themes[0] if themes else "unknown"
+TypeError: cannot use 'list' as a dict key (unhashable type: 'list')
+2026-05-15 15:21:10,463 INFO Connected to MongoDB
+2026-05-15 15:21:10,464 INFO Loaded 2 accounts
+2026-05-15 15:21:10,501 INFO Scheduler started with interval 5 minutes
+2026-05-15 15:21:10,501 INFO Scheduler scraping run started
+2026-05-15 15:21:12,018 INFO Scraping account realDonaldTrump
+2026-05-15 15:21:33,337 INFO Loaded page for realDonaldTrump
+2026-05-15 15:21:33,370 INFO Selector div[data-testid='status'] found 1 elements for realDonaldTrump
+2026-05-15 15:21:33,417 INFO Skipping duplicate post_id realDonaldTrump_status-116575104401917058
+2026-05-15 15:21:33,417 INFO No new posts
+2026-05-15 15:21:33,417 INFO Scraping account TuckerCarlson
+2026-05-15 15:21:51,767 INFO Loaded page for TuckerCarlson
+2026-05-15 15:21:51,792 INFO Selector div[data-testid='status'] found 1 elements for TuckerCarlson
+2026-05-15 15:21:51,805 INFO Skipping duplicate post_id TuckerCarlson_status-116558209569783008
+2026-05-15 15:21:51,805 INFO No new posts
+2026-05-15 15:21:52,969 INFO Updated historical summary at output\historical_summary.json
+2026-05-15 15:26:10,508 INFO Scheduler scraping run started
+2026-05-15 15:26:11,829 INFO Scraping account realDonaldTrump
+2026-05-15 15:26:31,351 INFO Loaded page for realDonaldTrump
+2026-05-15 15:26:31,396 INFO Selector div[data-testid='status'] found 1 elements for realDonaldTrump
+2026-05-15 15:26:31,429 INFO Skipping duplicate post_id realDonaldTrump_status-116575104401917058
+2026-05-15 15:26:31,429 INFO No new posts
+2026-05-15 15:26:31,429 INFO Scraping account TuckerCarlson
+2026-05-15 15:26:50,282 INFO Loaded page for TuckerCarlson
+2026-05-15 15:26:50,318 INFO Selector div[data-testid='status'] found 1 elements for TuckerCarlson
+2026-05-15 15:26:50,337 INFO Skipping duplicate post_id TuckerCarlson_status-116558209569783008
+2026-05-15 15:26:50,338 INFO No new posts
+2026-05-15 15:26:51,494 INFO Updated historical summary at output\historical_summary.json
+2026-05-15 15:31:10,503 INFO Scheduler scraping run started
+2026-05-15 15:31:11,873 INFO Scraping account realDonaldTrump
+2026-05-15 15:31:33,556 INFO Loaded page for realDonaldTrump
+2026-05-15 15:31:33,601 INFO Selector div[data-testid='status'] found 1 elements for realDonaldTrump
+2026-05-15 15:31:33,631 INFO Skipping duplicate post_id realDonaldTrump_status-116575104401917058
+2026-05-15 15:31:33,631 INFO No new posts
+2026-05-15 15:31:33,631 INFO Scraping account TuckerCarlson
+2026-05-15 15:31:51,492 INFO Loaded page for TuckerCarlson
+2026-05-15 15:31:51,525 INFO Selector div[data-testid='status'] found 1 elements for TuckerCarlson
+2026-05-15 15:31:51,545 INFO Skipping duplicate post_id TuckerCarlson_status-116558209569783008
+2026-05-15 15:31:51,545 INFO No new posts
+2026-05-15 15:31:52,840 INFO Updated historical summary at output\historical_summary.json
+2026-05-15 15:36:10,499 INFO Scheduler scraping run started
+2026-05-15 15:36:11,927 INFO Scraping account realDonaldTrump
+2026-05-15 15:36:34,213 INFO Loaded page for realDonaldTrump
+2026-05-15 15:36:34,266 INFO Selector div[data-testid='status'] found 1 elements for realDonaldTrump
+2026-05-15 15:36:34,299 INFO Skipping duplicate post_id realDonaldTrump_status-116575104401917058
+2026-05-15 15:36:34,299 INFO No new posts
+2026-05-15 15:36:34,300 INFO Scraping account TuckerCarlson
+2026-05-15 15:36:52,717 INFO Loaded page for TuckerCarlson
+2026-05-15 15:36:52,744 INFO Selector div[data-testid='status'] found 1 elements for TuckerCarlson
+2026-05-15 15:36:52,758 INFO Skipping duplicate post_id TuckerCarlson_status-116558209569783008
+2026-05-15 15:36:52,758 INFO No new posts
+2026-05-15 15:36:54,428 INFO Updated historical summary at output\historical_summary.json
+2026-05-15 15:46:20,959 INFO Connected to MongoDB
+2026-05-15 15:46:21,015 INFO Synced 2 existing posts from JSON to MongoDB
+2026-05-15 15:46:21,016 INFO Loaded 2 accounts
+2026-05-15 15:46:21,078 INFO Scheduler started with interval 5 minutes
+2026-05-15 15:46:21,078 INFO Scheduler scraping run started
+2026-05-15 15:46:22,483 INFO Scraping account realDonaldTrump
+2026-05-15 15:46:45,870 INFO Loaded page for realDonaldTrump
+2026-05-15 15:46:45,901 INFO Selector div[data-testid='status'] found 1 elements for realDonaldTrump
+2026-05-15 15:46:45,923 INFO Skipping duplicate post_id realDonaldTrump_status-116575104401917058
+2026-05-15 15:46:45,964 INFO No new posts
+2026-05-15 15:46:45,965 INFO Scraping account TuckerCarlson
+2026-05-15 15:47:04,331 INFO Loaded page for TuckerCarlson
+2026-05-15 15:47:04,351 INFO Selector div[data-testid='status'] found 1 elements for TuckerCarlson
+2026-05-15 15:47:04,364 INFO Skipping duplicate post_id TuckerCarlson_status-116558209569783008
+2026-05-15 15:47:04,364 INFO No new posts
+2026-05-15 15:47:05,593 INFO Updated historical summary at output\historical_summary.json
+2026-05-15 15:51:21,088 INFO Scheduler scraping run started
+2026-05-15 15:51:22,601 INFO Scraping account realDonaldTrump
+2026-05-15 15:51:45,343 INFO Loaded page for realDonaldTrump
+2026-05-15 15:51:45,389 INFO Selector div[data-testid='status'] found 1 elements for realDonaldTrump
+2026-05-15 15:51:45,427 INFO Skipping duplicate post_id realDonaldTrump_status-116575104401917058
+2026-05-15 15:51:45,428 INFO No new posts
+2026-05-15 15:51:45,428 INFO Scraping account TuckerCarlson
+2026-05-15 15:52:03,294 INFO Loaded page for TuckerCarlson
+2026-05-15 15:52:03,329 INFO Selector div[data-testid='status'] found 1 elements for TuckerCarlson
+2026-05-15 15:52:03,349 INFO Skipping duplicate post_id TuckerCarlson_status-116558209569783008
+2026-05-15 15:52:03,349 INFO No new posts
+2026-05-15 15:52:05,066 INFO Updated historical summary at output\historical_summary.json
+2026-05-15 15:56:21,087 INFO Scheduler scraping run started
+2026-05-15 15:56:22,361 INFO Scraping account realDonaldTrump
+2026-05-15 15:56:46,069 INFO Loaded page for realDonaldTrump
+2026-05-15 15:56:46,133 INFO Selector div[data-testid='status'] found 1 elements for realDonaldTrump
+2026-05-15 15:56:46,172 INFO Skipping duplicate post_id realDonaldTrump_status-116575104401917058
+2026-05-15 15:56:46,172 INFO No new posts
+2026-05-15 15:56:46,173 INFO Scraping account TuckerCarlson
+2026-05-15 15:57:04,338 INFO Loaded page for TuckerCarlson
+2026-05-15 15:57:04,375 INFO Selector div[data-testid='status'] found 1 elements for TuckerCarlson
+2026-05-15 15:57:04,391 INFO Skipping duplicate post_id TuckerCarlson_status-116558209569783008
+2026-05-15 15:57:04,391 INFO No new posts
+2026-05-15 15:57:05,481 INFO Updated historical summary at output\historical_summary.json
+2026-05-15 16:01:21,078 INFO Scheduler scraping run started
+2026-05-15 16:01:22,182 INFO Scraping account realDonaldTrump
+2026-05-15 16:01:44,542 INFO Loaded page for realDonaldTrump
+2026-05-15 16:01:44,587 INFO Selector div[data-testid='status'] found 1 elements for realDonaldTrump
+2026-05-15 16:01:44,616 INFO Skipping duplicate post_id realDonaldTrump_status-116575104401917058
+2026-05-15 16:01:44,616 INFO No new posts
+2026-05-15 16:01:44,617 INFO Scraping account TuckerCarlson
+2026-05-15 16:02:04,049 INFO Loaded page for TuckerCarlson
+2026-05-15 16:02:04,091 INFO Selector div[data-testid='status'] found 1 elements for TuckerCarlson
+2026-05-15 16:02:04,112 INFO Skipping duplicate post_id TuckerCarlson_status-116558209569783008
+2026-05-15 16:02:04,112 INFO No new posts
+2026-05-15 16:02:05,383 INFO Updated historical summary at output\historical_summary.json
+2026-05-15 16:02:47,397 INFO Shutdown requested, stopping scheduler
+2026-05-15 16:02:47,397 INFO Scheduler shut down
+2026-05-15 16:02:53,757 INFO Connected to MongoDB
+2026-05-15 16:02:53,862 INFO Loaded 6 accounts
+2026-05-15 16:02:53,879 INFO Scheduler started with interval 5 minutes
+2026-05-15 16:02:53,880 INFO Scheduler scraping run started
+2026-05-15 16:02:55,131 INFO Scraping account realDonaldTrump
+2026-05-15 16:03:16,726 INFO Loaded page for realDonaldTrump
+2026-05-15 16:03:16,770 INFO Selector div[data-testid='status'] found 1 elements for realDonaldTrump
+2026-05-15 16:03:16,837 INFO Skipping duplicate post_id realDonaldTrump_status-116575104401917058
+2026-05-15 16:03:16,837 INFO No new posts
+2026-05-15 16:03:16,837 INFO Scraping account TuckerCarlson
+2026-05-15 16:03:34,751 INFO Loaded page for TuckerCarlson
+2026-05-15 16:03:34,772 INFO Selector div[data-testid='status'] found 1 elements for TuckerCarlson
+2026-05-15 16:03:34,785 INFO Skipping duplicate post_id TuckerCarlson_status-116558209569783008
+2026-05-15 16:03:34,786 INFO No new posts
+2026-05-15 16:03:34,786 INFO Scraping account FoxNews
+2026-05-15 16:03:49,037 INFO Loaded page for FoxNews
+2026-05-15 16:03:49,073 WARNING No posts found for FoxNews
+2026-05-15 16:03:49,074 INFO Scraping account CNN
+2026-05-15 16:04:04,390 INFO Loaded page for CNN
+2026-05-15 16:04:04,424 WARNING No posts found for CNN
+2026-05-15 16:04:04,425 INFO Scraping account PeterSchiff
+2026-05-15 16:04:19,711 INFO Loaded page for PeterSchiff
+2026-05-15 16:04:19,745 WARNING No posts found for PeterSchiff
+2026-05-15 16:04:19,746 INFO Scraping account saylor
+2026-05-15 16:04:34,155 INFO Loaded page for saylor
+2026-05-15 16:04:34,199 WARNING No posts found for saylor
+2026-05-15 16:04:35,722 INFO Updated historical summary at output\historical_summary.json
+2026-05-15 16:06:00,902 INFO Shutdown requested, stopping scheduler
+2026-05-15 16:06:00,902 INFO Scheduler shut down
+2026-05-15 16:06:05,775 INFO Connected to MongoDB
+2026-05-15 16:06:05,863 INFO Loaded 3 accounts
+2026-05-15 16:06:05,874 INFO Scheduler started with interval 5 minutes
+2026-05-15 16:06:05,874 INFO Scheduler scraping run started
+2026-05-15 16:06:07,044 INFO Scraping account realDonaldTrump
+2026-05-15 16:06:29,404 INFO Loaded page for realDonaldTrump
+2026-05-15 16:06:29,465 INFO Selector div[data-testid='status'] found 1 elements for realDonaldTrump
+2026-05-15 16:06:29,513 INFO Skipping duplicate post_id realDonaldTrump_status-116575104401917058
+2026-05-15 16:06:29,513 INFO No new posts
+2026-05-15 16:06:29,514 INFO Scraping account TuckerCarlson
+2026-05-15 16:06:47,492 INFO Loaded page for TuckerCarlson
+2026-05-15 16:06:47,528 INFO Selector div[data-testid='status'] found 2 elements for TuckerCarlson
+2026-05-15 16:06:47,566 INFO Skipping duplicate post_id TuckerCarlson_status-116558209569783008
+2026-05-15 16:06:47,736 INFO Saved 1 posts to MongoDB
+2026-05-15 16:06:47,740 INFO Scraping account FoxNews
+2026-05-15 16:07:02,061 INFO Loaded page for FoxNews
+2026-05-15 16:07:02,109 WARNING No posts found for FoxNews
+2026-05-15 16:07:03,459 INFO Updated historical summary at output\historical_summary.json
+2026-05-15 16:08:56,472 INFO Shutdown requested, stopping scheduler
+2026-05-15 16:08:56,473 INFO Scheduler shut down
